@@ -84,7 +84,7 @@ Version 4.5.0 *(2017-06-08)*
 - Updated history page UI
 - Fixed numerous bugs
 
-Version 4.4.1 *(2016-11-05)*
+Version 4.4.1 *(2016-11-05)* y
 ----------------------------
 - Fixed bookmark/tab drawer crash
 - Fixed search suggestions crash on start up
