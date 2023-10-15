@@ -1,8 +1,32 @@
+/*
+ * The contents of this file are subject to the Common Public Attribution License Version 1.0.
+ * (the "License"); you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at:
+ * https://github.com/Slion/Fulguris/blob/main/LICENSE.CPAL-1.0.
+ * The License is based on the Mozilla Public License Version 1.1, but Sections 14 and 15 have been
+ * added to cover use of software over a computer network and provide for limited attribution for
+ * the Original Developer. In addition, Exhibit A has been modified to be consistent with Exhibit B.
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF
+ * ANY KIND, either express or implied. See the License for the specific language governing rights
+ * and limitations under the License.
+ *
+ * The Original Code is Fulguris.
+ *
+ * The Original Developer is the Initial Developer.
+ * The Initial Developer of the Original Code is Stéphane Lenclud.
+ *
+ * All portions of the code written by Stéphane Lenclud are Copyright © 2020 Stéphane Lenclud.
+ * All Rights Reserved.
+ */
+
 package fulguris.preference
 
-import acr.browser.lightning.R
+import fulguris.R
+import fulguris.extensions.px
 import android.content.Context
 import android.content.res.TypedArray
+import android.graphics.Rect
 import android.os.Parcel
 import android.os.Parcelable
 import android.util.AttributeSet
@@ -19,6 +43,7 @@ import com.google.android.material.slider.Slider
 import java.lang.Float.max
 import java.lang.Float.min
 import java.util.*
+
 
 /*
 * Copyright 2018 The Android Open Source Project
@@ -59,6 +84,7 @@ import java.util.*
  */
 class SliderPreference @JvmOverloads constructor(
         context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = R.attr.sliderStyle, defStyleRes: Int = 0) : Preference(context, attrs, defStyleAttr, defStyleRes) {
+
     var mSeekBarValue = 0F
     //var mMin = 0F
     //private var mMax = 100F
@@ -164,10 +190,19 @@ class SliderPreference @JvmOverloads constructor(
         mSlider = view.findViewById(R.id.slider) as Slider
 
         mSeekBarValueTextView = view.findViewById(R.id.seekbar_value) as TextView
+        val tv = mSeekBarValueTextView!!
+
         if (mShowSeekBarValue) {
-            mSeekBarValueTextView!!.visibility = View.VISIBLE
+            tv.visibility = View.VISIBLE
+            // Compute minimum width of our text view so that the slider does not resize as the label grows and shrinks
+            val bounds = Rect()
+            val longestText = formatter.getFormattedValue(valueTo)
+            tv.paint.getTextBounds(longestText, 0, longestText.length, bounds)
+            // Take into account text width, left and right padding and a small magic constant that we are not exactly sure why it was needed
+            // If we are still having problems just increase that constant a bit
+            tv.minWidth = bounds.width()  + tv.compoundPaddingLeft + tv.compoundPaddingRight + 2.px
         } else {
-            mSeekBarValueTextView!!.visibility = View.GONE
+            tv.visibility = View.GONE
             mSeekBarValueTextView = null
         }
         if (mSlider == null) {
@@ -474,10 +509,10 @@ class SliderPreference @JvmOverloads constructor(
     /**
      * See also [com.google.android.material.slider.BasicLabelFormatter]
      */
-    class MostBasicLabelFormatter(aFormat: String="%s") : LabelFormatter {
+    class MostBasicLabelFormatter(aFormat: String="%.2f") : LabelFormatter {
         private val iFormat = aFormat
         override fun getFormattedValue(value: Float): String {
-            return String.format(iFormat, String.format(if (value.toInt().toFloat() == value) "%.0f" else "%.2f", value))
+            return String.format(iFormat, value)            
         }
     }
 

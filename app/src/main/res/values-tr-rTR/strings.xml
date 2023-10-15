@@ -3,12 +3,12 @@
     <string name="action_reload">Yeniden yükle</string>
     <string name="action_menu">Menü</string>
     <string name="action_new_tab">Yeni sekme</string>
+    <string name="action_duplicate_tab">Duplicate tab</string>
     <string name="action_share">Paylaş</string>
     <string name="action_history">Geçmiş</string>
     <string name="action_bookmarks">Yer işaretleri</string>
     <string name="action_downloads">İndirmeler</string>
     <string name="action_add_bookmark">Yer işareti ekle</string>
-    <string name="action_copy">Bağlantıyı kopyala</string>
     <string name="action_forward">İleri</string>
     <string name="action_sessions">Oturumlar</string>
     <string name="action_new_session">Yeni oturum</string>
@@ -17,13 +17,11 @@
     <string name="enable">Etkinleştir</string>
     <string name="disable">Devre Dışı Bırak</string>
     <string name="settings">Ayarlar</string>
+    <string name="options">Options</string>
     <string name="location">Konum erişimi</string>
     <string name="password">Şifrelerinizi kaydedin</string>
     <string name="agent">Tarayıcı kimliği</string>
-    <string name="flash">Adobe Flash\'ı etkinleştir</string>
     <string name="home">Ana sayfa</string>
-    <string name="fullscreen">Tam ekran modu</string>
-    <string name="java">Javascript\'i etkinleştir</string>
     <string name="download">İndirme konumu</string>
     <string name="settings_advanced">Gelişmiş ayarlar</string>
     <string name="version">Uygulama sürümü</string>
@@ -33,7 +31,6 @@
     <string name="show">Göster</string>
     <string name="cache">Çıkışta önbelleği temizle</string>
     <string name="reflow">Yazıyı sayfaya göre ayarla</string>
-    <string name="block">Resimleri engelle</string>
     <string name="load_images">Resimleri yükle</string>
     <string name="window">Sitelerin yeni sekme açmasına izin ver</string>
     <string name="cookies">Çerezleri etkinleştir</string>
@@ -44,20 +41,11 @@
     <string name="search_action">@string/search_hint</string>
     <string name="overViewMode">Sayfaları önizleme modunda göster</string>
     <string name="restore_tabs_on_startup">Açılırken önceki sekmeleri geri yükle</string>
-    <string name="supported_browsers_title">Desteklenen tarayıcılar</string>
-    <string name="stock_browser">Stock tarayıcı</string>
-    <string name="stock_browser_unavailable">Stock tarayıcı bulunamadı</string>
-    <string name="stock_browser_available">Desteklenen stock tarayıcı bulundu</string>
-    <string name="fullScreenOption">Gezinirken durum çubuğunu gizle</string>
     <string name="clear_cookies">Tarayıcı çerezlerini temizle</string>
     <string name="clear_history">Tarayıcı geçmişini temizle</string>
-    <string name="dialog_image">Bu resimle ne yapmak istersiniz?</string>
     <string name="action_download">İndir</string>
     <string name="action_open">Aç</string>
-    <string name="dialog_link">Bu bağlantıyla ne yapmak istersiniz?</string>
     <string name="dialog_title_share">Bu sayfayı paylaş</string>
-    <string name="dialog_history_long_press">Bu geçmiş öğeleriyle ne yapmak istersiniz?</string>
-    <string name="dialog_bookmark">Bu yer işaretiyle ne yapmak istersiniz?</string>
     <string name="action_delete">Sil</string>
     <string name="action_blank">Boş sayfa</string>
     <string name="agent_android_mobile">Android (Mobil)</string>
@@ -77,7 +65,6 @@
     <string name="unknown_size">Bilinmeyen boyut</string>
     <string name="action_cancel">İptal</string>
     <string name="title_warning">Uyarı</string>
-    <string name="dialog_adobe_not_installed">Adobe Flash Player bulunamadı.\nLütfen Flash Player yükleyin.</string>
     <string name="title_user_agent">Tarayıcı kimliği</string>
     <string name="title_download_location">İndirme konumu</string>
     <string name="title_custom_homepage">Özel ana sayfa</string>
@@ -89,23 +76,22 @@
     <string name="dialog_cookies">Tüm tarayıcı çerezlerini silmek ister misiniz?</string>
     <string name="action_yes">Evet</string>
     <string name="action_no">Hayır</string>
+    <string name="action_ask">Ask</string>
+    <string name="action_proceed">Proceed</string>
+    <string name="action_abort">Abort</string>
     <string name="title_text_size">Yazı boyutu</string>
-    <string name="size_largest">En büyük</string>
-    <string name="size_large">Büyük</string>
-    <string name="size_normal">Normal</string>
-    <string name="size_small">Küçük</string>
-    <string name="size_smallest">En küçük</string>
     <string name="title_error">Hata</string>
-    <string name="dialog_import_error">Yer işaretlerinin aktarılacağı tarayıcı bulunamadı.</string>
     <string name="hint_title">Başlık</string>
     <string name="hint_url">URL</string>
     <string name="title_edit_bookmark">Yer işaretini düzenle</string>
     <string name="action_edit">Düzenle</string>
     <string name="action_incognito">Yeni gizli sekme</string>
-    <string name="action_homepage">Varsayılan</string>
     <string name="action_show_homepage">Ana sayfayı göster</string>
     <string name="action_back">Geri</string>
     <string name="action_find">Sayfada bul</string>
+    <string name="action_find_next">Find next</string>
+    <string name="action_find_previous">Find previous</string>
+    <string name="action_find_selection">Find selection</string>
     <string name="action_print">Yazdır</string>
     <string name="action_translate">Çevir</string>
     <string name="downloads">İndirilenler</string>
@@ -122,9 +108,6 @@
     <string name="download_failed">İndirme başarısız</string>
     <string name="incognito_cookies">Gizli modda çerezleri etkinleştir</string>
     <string name="incognito_cookies_pie">Incognito mode runs in a separate process that is reset after each session. Incognito cookie preferences are now controlled by the regular cookie preferences.</string>
-    <string name="title_flash">Adobe Flash</string>
-    <string name="action_manual">El ile</string>
-    <string name="action_auto">Otomatik</string>
     <string name="pref_title_contact_us">Bize ulaşın</string>
     <string name="clear_cache">Önbelleği temizle</string>
     <string name="message_cache_cleared">Önbellek temizlendi</string>
@@ -144,18 +127,9 @@
     <string name="message_welcome">Bu güçlü web tarayıcısı hakkında daha fazlasını öğrenmek için ana sayfamızı ziyaret etmek ister misiniz?</string>
     <!-- Ad block -->
     <string name="block_ads">İçerik kontrolü</string>
-    <string name="block_ad_source">Sunucu dosya kaynağı</string>
-    <string name="block_ad_remote_refresh_frequency_description">Uzak dosyalar için</string>
-    <string name="block_ad_refresh_now">Sunucuyu şimdi yenile</string>
     <string name="block_remote_frequency_daily">Günlük</string>
     <string name="block_remote_frequency_weekly">Haftalık</string>
     <string name="block_remote_frequency_monthly">Aylık</string>
-    <string name="block_source_default">Varsayılan sunucu</string>
-    <string name="block_source_local">Yerel sunucu dosyası</string>
-    <string name="block_source_local_description">Dosya: %1$s</string>
-    <string name="block_source_remote">Uzak dosya</string>
-    <string name="block_source_remote_description">Adres: %1$s</string>
-    <string name="ad_block_load_failure">Ana bilgisayarlar reklam engelleme kaynağından yüklenemedi.</string>
     <!-- new ad blocker -->
     <string name="page_blocked">Şu sayfa engellendi:</string>
     <string name="page_blocked_reason">çünkü:</string>
@@ -175,15 +149,12 @@
     <string name="blocklist_last_update">Son güncelleme: %s</string>
     <string name="blocklist_updating">Güncelleniyor…</string>
     <string name="blocklist_update_error">Filtre listeleri güncellenirken bir hata oluştu: %s</string>
-    <string name="blocklist_update_error_404">Error while updating filters list %s: url not found</string>
     <!-- not used any more, generic error for all non-successful codes -->
     <string name="blocklist_update_error_code">Filtre listeleri güncellenirken bir hata oluştu %1$s: durum kodu %2$s</string>
     <string name="add_blocklist">Filtre dosyası ekle</string>
     <string name="add_blocklist_hint">AdBlock Plus kurallarına uyan herhangi bir liste veya host listesi ekleyebilirsiniz</string>
-    <string name="enable_blocklist">Bu listeyi etkinleştir</string>
     <string name="invalid_title">Geçersiz başlık</string>
     <string name="invalid_url">Geçersiz bağlantı</string>
-    <string name="blocklist_built_in">Gömülü filtreler</string>
     <string name="blocklist_remove">Filtre dosyasını kaldır</string>
     <string name="blocklist_remove_confirm">Gerçekten ama gerçekten %s filtre dosyası kaldırılsın mı?</string>
     <string name="local_file">Yerel</string>
@@ -196,8 +167,8 @@
     <!-- Common actions -->
     <string name="action_message_canceled">İşlem iptal edildi.</string>
     <!-- SSL warnings -->
-    <string name="ssl_warning_dont_ask_again">Bu göz atma oturumu için tekrar sorma.</string>
-    <string name="message_insecure_connection">Bağlantı güvenli değil:\n%1$s\nDevam etmek istiyor musunuz?</string>
+    <string name="message_ssl_error_aborted">Security error! Page loading aborted.</string>
+    <string name="message_ssl_error">Secure connection compromised:\n<xliff:g id="domain_name" example="my.example.com"><b>%1$s</b></xliff:g>\n\n<xliff:g id="error_list" example="Certificate is invalid">%2$s</xliff:g>Do you still want to proceed?</string>
     <string name="message_certificate_date_invalid">Sertifika tarihi geçersiz</string>
     <string name="message_certificate_expired">Sertifikanın süresi dolmuş</string>
     <string name="message_certificate_domain_mismatch">Sertifika etki alanı, site etki alanıyla eşleşmiyor</string>
@@ -254,7 +225,6 @@
     <string name="name_inverted_grayscale">Ters ve gri tonlamalı</string>
     <string name="name_increase_contrast">Kontrastı arttır</string>
     <string name="name_normal">Normal</string>
-    <string name="sync_history">Geçmişi Google ile eşitle</string>
     <string name="title_file_chooser">Dosya seçicisi</string>
     <string name="library_netcipher">NetChiper</string>
     <string name="license_gnu">GNU Küçük Genel Kamu Lisansı</string>
@@ -281,7 +251,11 @@
     <string name="settings_about">Hakkında</string>
     <string name="settings_contribute">Katkıda bulun</string>
     <string name="settings_summary_contribute">Fulguris\'in büyüyüp başarılı olmasına yardım edin</string>
-    <string name="pref_category_general">Genel</string>
+    <string name="settings_title_privacy_policy">Privacy Policy</string>
+    <string name="settings_summary_privacy_policy">See our privacy policy online</string>
+    <string name="settings_title_terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="settings_summary_terms_and_conditions">See our terms and conditions online</string>
+    <string name="settings_summary_discord">Join our growing community</string>
     <string name="pref_category_panels">Paneller</string>
     <string name="pref_category_webpage">@string/action_webpage</string>
     <string name="pref_category_landscape">Yatay</string>
@@ -292,6 +266,14 @@
     <string name="pref_category_on_tab_close">Sekme kapatıldığında</string>
     <string name="pref_category_on_tab_change">Sekme değiştirildiğinde</string>
     <string name="pref_category_on_tab_back_forward">Geri veya ileri gidildiğinde</string>
+    <string name="settings_category_on_follow_link">When following a link</string>
+    <string name="pref_category_scrollbars">Scrollbars</string>
+    <string name="settings_title_tab">Tab</string>
+    <string name="settings_title_page_history">Page history</string>
+    <string name="settings_summary_tab">Animations, feedback and appearance</string>
+    <string name="pref_summary_scrollbars">Adjust scrollbars size and behavior</string>
+    <string name="pref_category_subscriptions">Subscriptions</string>
+    <string name="pref_summary_subscriptions">Activate or cancel your subscriptions</string>
     <string name="pref_title_hide_status_bar">Durum çubuğunu gizle</string>
     <string name="pref_title_hide_tool_bar">Aşağı kaydırırken araç çubuğunu gizle</string>
     <string name="pref_title_show_tool_bar_when_scroll_up">Yukarı kaydırırken araç çubuğunu göster</string>
@@ -327,19 +309,15 @@
     <string name="pref_summary_contribute_share">Dazzle your friends and communities by sharing Fulguris with them.</string>
     <string name="pref_title_language">Dil</string>
     <string name="language_system_default">Sistem varsayılanı</string>
-    <string name="settings_about_explain">Sürüm, yazar ve lisansla ilgili ayrıntılar.</string>
     <string name="close_tab">Geçerli sekmeyi kapat</string>
     <string name="close_all_tabs">Tüm sekmeleri kapat</string>
     <string name="close_other_tabs">Diğer sekmeleri kapat</string>
-    <string name="third_party">Üçüncü taraf çerezleri engelle</string>
     <string name="color_mode">Renk modunu etkinleştir</string>
     <string name="reading_mode">Okuyucu modu</string>
     <string name="loading">Yükleniyor&#8230;</string>
-    <string name="loading_failed">Sayfadan bir şey yüklenemedi.</string>
     <string name="snacktory">Snacktory</string>
     <string name="jsoup">jsoup: Java HTML Parser</string>
     <string name="mit_license">MIT Lisansı</string>
-    <string name="url_contents">URL kutusu içeriği</string>
     <string name="search_in_new_tab">Yeni sekmede ara</string>
     <string name="url_in_new_tab">URL in new tab</string>
     <string name="homepage_in_new_tab">Homepage in new tab</string>
@@ -352,12 +330,6 @@
     <string name="text_encoding">Metin kodlaması</string>
     <string name="reset_settings">Reset settings</string>
     <string name="reset_settings_confirmation">You will loose all your settings. Are you sure you want to proceed?</string>
-    <string-array name="url_content_array">
-        <item>Alan adı (varsayılan)</item>
-        <item>URL</item>
-        <item>Başlık</item>
-        <item>Shortened URL</item>
-    </string-array>
     <string name="invert_color">Rengi ters çevir</string>
     <string name="settings_black_status_bar">Siyah durum çubuğu</string>
     <string name="tabs">Sekmeler</string>
@@ -368,21 +340,22 @@
     <string name="default_theme">@string/agent_default</string>
     <string name="folder">Klasör adı</string>
     <string name="action_folder">Klasör</string>
-    <string name="action_rename">Yeniden adlandır</string>
     <string name="title_rename_folder">Klasörü yeniden adlandır</string>
-    <string name="dialog_folder">Bu klasörle ne yapmak istersiniz?</string>
     <string name="clear_web_storage">Web depolama alanını temizle</string>
     <string name="clear_web_storage_exit">Çıkışta web depolama alanını temizle</string>
     <string name="message_web_storage_cleared">Web depolama alanı temizlendi</string>
-    <string name="hosts_source">Hosts dosyası, reklam engelleme kaynağını barındırır</string>
     <string name="settings_adblock">@string/block_ads</string>
     <string name="settings_summary_content_control">Ad blocker and content filtering</string>
     <string name="settings_summary_content_control_toggle">Activate ad blocker and content filtering</string>
-    <string name="settings_title_vertical_tab_bar">Gezinme sekmelerini göster</string>
-    <string name="settings_summary_vertical_tab_bar">Disable it to use horizontal tab bar</string>
-    <string name="settings_title_tab_bar_in_drawer">Tab bar in drawer</string>
-    <string name="settings_summary_tab_bar_in_drawer">When disabled vertical tabs will be shown beside the current tab content</string>
-    <string name="settings_title_toolbars_bottom">Toolbars at the bottom</string>
+    <string name="settings_title_tab_bar_orientation">Tab bar orientation</string>
+    <string name="settings_summary_on_tab_bar_orientation">Vertical</string>
+    <string name="settings_summary_off_tab_bar_orientation">Horizontal</string>
+    <string name="settings_title_tab_bar_placement">Tab bar placement</string>
+    <string name="settings_summary_on_tab_bar_placement">Retractable panel</string>
+    <string name="settings_summary_off_tab_bar_placement">Always on screen</string>
+    <string name="settings_title_toolbars_position">Toolbars position</string>
+    <string name="settings_summary_on_toolbars_position">Bottom</string>
+    <string name="settings_summary_off_toolbars_position">Top</string>
     <string name="settings_title_desktop_mode_default">Masaüstü modu</string>
     <string name="settings_summary_desktop_mode_default">Define if new tabs use desktop mode by default</string>
     <string name="settings_title_dark_mode_default">Force dark mode</string>
@@ -398,7 +371,6 @@
     <string name="message_added_to_homescreen">Ana ekrana kısayol eklendi</string>
     <string name="shortcut_message_failed_to_add">Üzgünüz, başlatıcınız kısayolları desteklemiyor.</string>
     <string name="action_delete_all_bookmarks">Tüm yer işaretlerini sil</string>
-    <string name="flash_not_supported">Flash Player, sisteminiz tarafından desteklenmiyor</string>
     <string name="message_open_download_fail">Bu dosya artık mevcut değil</string>
     <string name="faq">S.S.S</string>
     <string name="faq_description">Sık Sorulan Sorular</string>
@@ -408,6 +380,10 @@
     <string name="app_restart">Değişikliklerin etkili olması için lütfen uygulamayı yeniden başlatın.</string>
     <string name="pref_title_crash_logs">Crash logs</string>
     <string name="pref_summary_crash_logs">Write crash logs to file system.\nTap to open folder. Please provide relevant file when reporting a bug.</string>
+    <string name="pref_title_logs">Logs</string>
+    <string name="pref_summary_on_logs">Enabled</string>
+    <string name="pref_summary_off_logs">Disabled</string>
+    <string name="pref_title_log_level">Log level</string>
     <!-- Dialogs -->
     <string name="dialog_open_new_tab">Yeni sekmede aç</string>
     <string name="dialog_open_background_tab">Arka planda aç</string>
@@ -416,27 +392,17 @@
     <string name="dialog_edit_bookmark">Yer işaretini düzenle</string>
     <string name="dialog_title_bookmark">Bookmark</string>
     <string name="dialog_remove_from_history">Geçmişten kaldır</string>
-    <string name="dialog_download_image">Resmi indir</string>
     <string name="dialog_copy_link">Bağlantıyı kopyala</string>
     <string name="dialog_copy_text">Copy text</string>
     <string name="dialog_rename_folder">Klasörü yeniden adlandır</string>
     <string name="dialog_remove_folder">Klasörü kaldır</string>
     <string name="dialog_title_close_browser">Tarayıcıyı kapat</string>
-    <string name="dialog_delete_download">İndirmeyi sil</string>
     <string name="dialog_delete_all_downloads">Tüm indirmeleri sil</string>
     <!-- Tools dialog -->
     <string name="dialog_tools_title">Sayfa araçları</string>
     <string name="dialog_toggle_desktop">Masaüstü görünümüne geçiş</string>
-    <string name="dialog_adblock_enable_for_site">Site için reklam engelleyiciyi etkinleştir</string>
-    <string name="dialog_adblock_disable_for_site">Site için reklam engelleyiciyi kapat</string>
     <!-- Search Engines -->
     <string name="search_engine_custom">Özel URL</string>
-    <string name="search_engine_duckduckgo_lite_no_js">DuckDuckGo Lite - JavaScript\'siz</string>
-    <string name="search_engine_duckduckgo_lite">DuckDuckGo Lite</string>
-    <string name="search_engine_duckduckgo_no_js">DuckDuckGo - JavaScript\'siz</string>
-    <string name="search_engine_qwant_lite">Qwant Lite</string>
-    <string name="search_engine_startpage_mobile">StartPage Mobil</string>
-    <string name="search_engine_yahoo_no_js">Yahoo - JavaScript\'siz</string>
     <!-- Notifications -->
     <plurals name="notification_incognito_running_title">
         <item quantity="one">%1$d gizli sekme açık</item>
@@ -456,15 +422,59 @@
     <string name="close">Close</string>
     <string name="exit">Çıkış</string>
     <!-- Frozen tabs -->
-    <string name="tab_frozen">Frozen…</string>
     <!-- Search -->
     <string name="search_insert_suggestion">Öneri ekle</string>
     <string name="action_close_all_other_tabs">Diğer tüm sekmeleri kapat</string>
     <string name="action_restore_all_tabs">Tüm sekmeleri geri yükle</string>
     <string name="action_restore_tab">Sekmeyi geri yükle</string>
-    <string name="settings_summary_apps">Üçüncü taraf uygulamaları etkinleştir</string>
-    <string name="settings_title_apps">Uygulamalar</string>
-    <string name="settings_app_prefix">app_for_</string>
+    <string name="settings_title_domains">Domains</string>
+    <string name="settings_summary_domains">Manage domain settings</string>
+    <string name="settings_title_resource_domains">Resource domains</string>
+    <string name="settings_title_override">Override</string>
+    <string name="settings_summary_on_override">Override parent settings</string>
+    <string name="settings_summary_off_override">Use parent settings</string>
+    <string name="settings_title_launch_app">Launch app</string>
+    <string name="settings_title_category">Category</string>
+    <string name="settings_summary_on_category">Main domain</string>
+    <string name="settings_summary_off_category">Resource domain</string>
+    <string name="action_domain_settings">Domain</string>
+    <string name="settings_title_domains_delete_all">Delete all</string>
+    <string name="settings_summary_domains_delete_all">Delete all domain settings</string>
+    <string name="question_delete_all_domain_settings">Delete all domain settings?</string>
+    <string name="settings_title_delete_domain_settings">Delete domain settings</string>
+    <string name="settings_summary_delete_domain_settings">Will be recreated next time this domain is encountered</string>
+    <string name="settings_title_parent">Parent</string>
+    <string name="settings_summary_default_domain_settings">Default domain settings</string>
+    <string name="settings_title_ssl_error">Security error</string>
+    <string name="settings_summary_ssl_error">What to do when an SSL error is detected</string>
+    <string name="checkbox_remember_domain_choice">Remember your choice for this domain</string>
+    <string name="settings_title_third_party_cookies">Third-party cookies</string>
+    <string name="settings_summary_on_third_party_cookies">Accept cookies used to track your activities across websites</string>
+    <string name="settings_summary_off_third_party_cookies">Reject cookies used to track your activities across websites</string>
+    <string name="settings_title_javascript">JavaScript</string>
+    <string name="settings_summary_on_javascript">All websites\' and browser\'s features should work</string>
+    <string name="settings_summary_off_javascript">Some websites\' and browser\'s features won\'t work</string>
+    <string name="settings_title_cookies">Cookies</string>
+    <string name="settings_summary_cookies">Current page has no cookies</string>
+    <string name="settings_summary_manage_cookies">Manage current page cookies</string>
+    <string name="settings_title_cookies_delete_all">Delete all</string>
+    <string name="settings_summary_cookies_delete_all">Delete all cookies for current page</string>
+    <string name="question_delete_all_page_cookies">Delete all cookies for current page?</string>
+    <plurals name="settings_summary_cookies">
+        <!--
+Zero ain't working for english.
+See: https://stackoverflow.com/a/42884713/3969362
+-->
+        <!-- <item quantity="zero">Current page has no cookies</item> -->
+        <item quantity="one">Current page has one cookie</item>
+        <item quantity="other">Current page has <xliff:g id="cookies_count" example="2">%d</xliff:g> cookies</item>
+    </plurals>
+    <string name="settings_title_task_label">Task label</string>
+    <string name="settings_title_task_icon">Task icon</string>
+    <string name="settings_summary_on_task_icon">Use page icon</string>
+    <string name="settings_summary_off_task_icon">Use app icon</string>
+    <string name="settings_title_toolbar_label">Toolbar label</string>
+    <!--  TODO: Remove that -->
     <string name="dialog_title_third_party_app">Üçüncü taraf uygulama mevcut</string>
     <string name="dialog_message_third_party_app">Web sitesiyle ilişkili uygulamayı başlatmak istiyor musun?</string>
     <string name="per_month">\u0020/ ay</string>
@@ -475,7 +485,7 @@
     <string name="session_already_exists">Bu isimde bir oturum zaten var!</string>
     <string name="session_cant_delete_current">Mevcut oturum silinemez!</string>
     <string name="session_prompt_confirm_deletion_title">Silmeyi onayla</string>
-    <string name="session_prompt_confirm_deletion_message">\"%s\" Oturumunu silmek istediğinize emin misiniz?</string>
+    <string name="session_prompt_confirm_deletion_message">Are you sure you want to delete session \"<xliff:g id="session_name" example="Shopping">%s</xliff:g>\"?</string>
     <string name="session_switched">\"%s\" olarak değiştirildi</string>
     <string name="busy">Şu an meşgul, kısa süre sonra tekrar deneyin.</string>
     <string name="invalid_character_removed">Geçersiz karakter kaldırıldı!</string>
@@ -491,7 +501,6 @@
     Long press on image link disambiguation:
         When user does a long press on a page element containing both an image and link we ask her which one she wants to use.
      -->
-    <string name="question_what_do_you_want_to_use">Ne kullanmak istiyorsunuz?</string>
     <string name="button_link">Bağlantı</string>
     <string name="button_image">Resim</string>
     <!-- Displayed in snackbar to notify user a tab was closed -->
@@ -505,14 +514,22 @@
     <string name="pref_title_show_animation">Animasyonu göster</string>
     <string name="pref_title_vibrate">Titreşim</string>
     <string name="pref_title_duration">Süre</string>
-    <string name="pref_summary_duration">Santisaniyede animasyon süresi</string>
+    <string name="settings_title_animation_duration">Animation duration</string>
+    <string name="pref_title_scrollbar_fading">Fading</string>
+    <string name="pref_summary_on_scrollbar_fading">Scrollbars are fading away</string>
+    <string name="pref_summary_off_scrollbar_fading">Scrollbars are always displayed</string>
+    <string name="pref_title_scrollbar_delay_before_fade">Delay before fade</string>
+    <string name="pref_summary_scrollbar_delay_before_fade">The time after which scrollbars will start fading</string>
+    <string name="pref_title_scrollbar_fade_duration">Fade duration</string>
+    <string name="pref_summary_scrollbar_fade_duration">The time it takes for scrollbars to fade</string>
+    <string name="pref_title_scrollbar_size">Size</string>
+    <string name="pref_summary_scrollbar_size">Define width and height of your scrollbars</string>
     <string name="pref_category_title_session_export">Oturumu dışa aktar</string>
     <string name="pref_category_summary_session_export">Dışa aktarmak istediğiniz oturumu seçin</string>
     <string name="error_session_file_corrupted">Hata: bozuk oturum dosyası!</string>
     <string name="error_recovery_session">Hata: bir kurtarma oturumu oluşturuldu!</string>
     <string name="message_session_imported">İçe aktarılan oturum: <xliff:g id="session_name" example="News">%s</xliff:g></string>
     <string name="message_session_exported">Dışa aktarılan oturum: <xliff:g id="session_name" example="Cooking">%s</xliff:g></string>
-    <string name="show_ssl">SSL uyarı diyaloglarını göster</string>
     <string name="start_incognito">Kalıcı olarak gizli moddaymış gibi davran</string>
     <string name="force_zoom_summary">JavaScript etkin değilse çalışmaz</string>
     <string name="force_zoom">Force zoom for websites</string>
@@ -525,13 +542,6 @@
     <string name="long_press_tab">Long press on the \"Tab\" icon opens a new tab</string>
     <string name="pref_title_close_drawer">Close drawer</string>
     <string name="pref_summary_close_drawer">Automatically close Drawer after creating or deleting a tab</string>
-    <string name="block_javascript">Block JavaScript for site</string>
-    <string name="block_sites_title">Separate sites with a comma</string>
-    <string name="listed_javascript">Only allow JavaScript for listed sites</string>
-    <string name="unlisted_javascript">Block JavaScript for listed sites</string>
-    <string name="allow_javascript">Allow JavaScript for this site</string>
-    <string name="blocked_javascript">Block JavaScript for this site</string>
-    <string name="page_source">View page source</string>
     <string name="inspect">Inject Javascript</string>
     <string name="edit_cookies">Show site cookies</string>
     <string name="site_cookies">Site cookies</string>
@@ -561,8 +571,6 @@
     <string name="settings_exported">Settings exported:</string>
     <string name="settings_reseted">All settings restored</string>
     <string name="suggest">Search suggestions (number)</string>
-    <string name="error_tip">• Check the Address for typing errors such as ww.example.com instead of www.example.com</string>
-    <string name="error_tip2">• Herhangi bir sayfa yükleyemiyorsanız, mobil veriyi veya Wi-Fi bağlantısını kontrol edin.</string>
     <string name="action_cycle_tabs_forwards">Cycle tabs forwards</string>
     <string name="action_cycle_tabs_backwards">Cycle tabs backwards</string>
     <string name="action_focus_address_bar">Adres çubuğuna odaklan</string>
@@ -580,4 +588,18 @@
     <string name="action_switch_to_tab">Switch to tab 1 to 9</string>
     <string name="action_switch_to_last_tab">Son sekmeye geç</string>
     <string name="action_switch_to_last_session">Son oturuma geç</string>
+    <string name="log_level_verbose">Verbose</string>
+    <string name="log_level_debug">Debug</string>
+    <string name="log_level_info">Info</string>
+    <string name="log_level_warn">Warn</string>
+    <string name="log_level_error">Error</string>
+    <string name="log_level_assert">Assert</string>
+    <!-- TODO: link to existing strings -->
+    <string name="label_url">URL</string>
+    <string name="label_short_url">Short URL</string>
+    <string name="label_domain">Domain</string>
+    <string name="label_title">Title</string>
+    <string name="label_session">Session</string>
+    <string name="label_app_name">App name</string>
+    <string name="message_render_process_crashed">Render process crashed. You may need to reload some web pages.</string>
 </resources>

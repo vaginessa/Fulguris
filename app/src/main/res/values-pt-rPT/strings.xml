@@ -3,12 +3,12 @@
     <string name="action_reload">Recarregar</string>
     <string name="action_menu">Menu</string>
     <string name="action_new_tab">Novo separador</string>
+    <string name="action_duplicate_tab">Duplicate tab</string>
     <string name="action_share">Partilhar</string>
     <string name="action_history">Histórico</string>
     <string name="action_bookmarks">Marcadores</string>
     <string name="action_downloads">Descargas</string>
     <string name="action_add_bookmark">Adicionar marcador</string>
-    <string name="action_copy">Copiar ligação</string>
     <string name="action_forward">Avançar</string>
     <string name="action_sessions">Sessões</string>
     <string name="action_new_session">Nova sessão</string>
@@ -17,13 +17,11 @@
     <string name="enable">Ativar</string>
     <string name="disable">Desativar</string>
     <string name="settings">Definições</string>
+    <string name="options">Opções</string>
     <string name="location">Acesso de localização</string>
     <string name="password">Guardar palavras-passe</string>
     <string name="agent">Agente</string>
-    <string name="flash">Ativar Adobe Flash</string>
     <string name="home">Página inicial</string>
-    <string name="fullscreen">Modo de ecrã completo</string>
-    <string name="java">Ativar JavaScript</string>
     <string name="download">Local para descargas</string>
     <string name="settings_advanced">Avançado</string>
     <string name="version">Versão da aplicação</string>
@@ -33,7 +31,6 @@
     <string name="show">Mostrar</string>
     <string name="cache">Limpar cache ao sair</string>
     <string name="reflow">Ativar ajuste de texto</string>
-    <string name="block">Bloquear imagens</string>
     <string name="load_images">Carregar imagens</string>
     <string name="window">Permitir que os sites abram novas janelas</string>
     <string name="cookies">Ativar cookies</string>
@@ -44,20 +41,11 @@
     <string name="search_action">@string/search_hint</string>
     <string name="overViewMode">Carregar páginas no modo panorâmico</string>
     <string name="restore_tabs_on_startup">Restaurar separadores ao iniciar</string>
-    <string name="supported_browsers_title">Navegadores suportados</string>
-    <string name="stock_browser">Navegador do sistema</string>
-    <string name="stock_browser_unavailable">Navegador não detetado</string>
-    <string name="stock_browser_available">Navegador detetado</string>
-    <string name="fullScreenOption">Ocultar barra de estado ao navegar</string>
     <string name="clear_cookies">Limpar cookies</string>
     <string name="clear_history">Limpar histórico</string>
-    <string name="dialog_image">O que gostaria de fazer com esta imagem?</string>
     <string name="action_download">Descarregar</string>
     <string name="action_open">Abrir</string>
-    <string name="dialog_link">O que gostaria de fazer com esta ligação?</string>
     <string name="dialog_title_share">Partilhar esta página</string>
-    <string name="dialog_history_long_press">O que gostaria de fazer com este item do histórico?</string>
-    <string name="dialog_bookmark">O que gostaria de fazer com este marcador?</string>
     <string name="action_delete">Apagar</string>
     <string name="action_blank">Página vazia</string>
     <string name="agent_android_mobile">Android (Mobile)</string>
@@ -77,7 +65,6 @@
     <string name="unknown_size">Tamanho desconhecido</string>
     <string name="action_cancel">Cancelar</string>
     <string name="title_warning">Aviso</string>
-    <string name="dialog_adobe_not_installed">O Adobe Flash Player não foi detetado.\nTem que instalar o Flash Player.</string>
     <string name="title_user_agent">Agente</string>
     <string name="title_download_location">Local para as descargas</string>
     <string name="title_custom_homepage">Página inicial personalizada</string>
@@ -89,23 +76,22 @@
     <string name="dialog_cookies">Gostaria de limpar todos os cookies do navegador?</string>
     <string name="action_yes">Sim</string>
     <string name="action_no">Não</string>
+    <string name="action_ask">Perguntar</string>
+    <string name="action_proceed">Proceed</string>
+    <string name="action_abort">Abort</string>
     <string name="title_text_size">Tamanho do texto</string>
-    <string name="size_largest">Maior</string>
-    <string name="size_large">Grande</string>
-    <string name="size_normal">Normal</string>
-    <string name="size_small">Pequeno</string>
-    <string name="size_smallest">Menor</string>
     <string name="title_error">Erro</string>
-    <string name="dialog_import_error">Não foi detetado qualquer navegador para importar os marcadores.</string>
     <string name="hint_title">Título</string>
     <string name="hint_url">URL</string>
     <string name="title_edit_bookmark">Editar marcador</string>
     <string name="action_edit">Editar</string>
     <string name="action_incognito">Novo separador incógnito</string>
-    <string name="action_homepage">Padrão</string>
     <string name="action_show_homepage">Mostrar página inicial</string>
     <string name="action_back">Recuar</string>
     <string name="action_find">Localizar na página</string>
+    <string name="action_find_next">Localizar seguinte</string>
+    <string name="action_find_previous">Localizar anterior</string>
+    <string name="action_find_selection">Localizar seleção</string>
     <string name="action_print">Imprimir</string>
     <string name="action_translate">Traduzir</string>
     <string name="downloads">Descargas</string>
@@ -115,23 +101,20 @@
     <string name="problem_download">URL inválido e a descarga não é possível</string>
     <string name="problem_location_download">Não é possível descarregar da localização especificada</string>
     <string name="download_no_sdcard_dlg_title">Cartão SD não encontrado</string>
-    <string name="download_no_sdcard_dlg_msg">Necessita de um cartão SD para guardar o ficheiro descarregado.</string>
+    <string name="download_no_sdcard_dlg_msg">Requer um cartão SD para guardar o ficheiro descarregado.</string>
     <string name="download_sdcard_busy_dlg_title">Cartão SD não disponível</string>
-    <string name="download_sdcard_busy_dlg_msg">O cartão SD está ocupado. Para descarregar ficheiros, desative a opção \"Desativar armazenamento USB\" na notificação.</string>
+    <string name="download_sdcard_busy_dlg_msg">O cartão SD está ocupado. Para descarregar ficheiros, toque em \"Desativar armazenamento USB\" na notificação.</string>
     <string name="download_complete">Descarga terminada</string>
     <string name="download_failed">Falha ao descarregar</string>
     <string name="incognito_cookies">Permitir cookies no modo incógnito</string>
-    <string name="incognito_cookies_pie">O modo incógnito é executado como processo distinto que será reposto após cada sessão. As preferências de cookies no modo incógnito são agora controladas nas preferências gerais de cookies.</string>
-    <string name="title_flash">Adobe Flash</string>
-    <string name="action_manual">Manual</string>
-    <string name="action_auto">Automático</string>
+    <string name="incognito_cookies_pie">O modo incógnito é executado como processo distinto, reposto após cada sessão. As preferências de cookies no modo incógnito são agora controladas nas preferências gerais de cookies.</string>
     <string name="pref_title_contact_us">Contacte-nos</string>
     <string name="clear_cache">Limpar cache</string>
     <string name="message_cache_cleared">Cache limpa</string>
     <string name="message_import">Marcadores importados</string>
     <string name="message_clear_history">Histórico removido</string>
     <string name="message_cookies_cleared">Cookies removidos</string>
-    <string name="max_tabs">Atingido o número máximo de separadores. Pode desbloquear este limite com uma subscrição.</string>
+    <string name="max_tabs">Atingiu o número máximo de separadores. Pode desbloquear este limite com uma subscrição.</string>
     <string name="message_text_copied">Texto copiado para a área de transferência</string>
     <string name="message_link_copied">Ligação copiada para a área de transferência</string>
     <string name="message_blocked_local">Bloqueado o carregamento do ficheiro local</string>
@@ -144,24 +127,15 @@
     <string name="message_welcome">Aceder à nossa página web para saber mais acerca deste navegador web?</string>
     <!-- Ad block -->
     <string name="block_ads">Controlo de conteúdo</string>
-    <string name="block_ad_source">Fonte do ficheiro hosts</string>
-    <string name="block_ad_remote_refresh_frequency_description">Para ficheiros remotos</string>
-    <string name="block_ad_refresh_now">Recarregar listas agora</string>
     <string name="block_remote_frequency_daily">Diariamente</string>
     <string name="block_remote_frequency_weekly">Semanalmente</string>
     <string name="block_remote_frequency_monthly">Mensalmente</string>
-    <string name="block_source_default">Hosts padrão</string>
-    <string name="block_source_local">Ficheiro local</string>
-    <string name="block_source_local_description">Ficheiro: %1$s</string>
-    <string name="block_source_remote">Ficheiro remoto</string>
-    <string name="block_source_remote_description">URL: %1$s</string>
-    <string name="ad_block_load_failure">Falha ao carregar o ficheiro hosts da fonte.</string>
     <!-- new ad blocker -->
     <string name="page_blocked">Esta página foi bloqueada:</string>
     <string name="page_blocked_reason">porque:</string>
     <string name="page_blocked_list_ad">%s está na lista de filtros</string>
     <string name="page_blocked_list_user">%s está bloqueada por uma regra do utilizador</string>
-    <string name="page_blocked_list_malware">%s está na lista de malware</string>
+    <string name="page_blocked_list_malware">%s está na lista de filtros importantes</string>
     <string name="request_blocked">Pedido bloqueado</string>
     <!-- settings for new ad blocker -->
     <string name="blocklist_update_mode">Atualização automática</string>
@@ -174,16 +148,13 @@
     <string name="blocklist_update_now">Atualizar listas agora</string>
     <string name="blocklist_last_update">Última atualização: %s</string>
     <string name="blocklist_updating">A atualizar…</string>
-    <string name="blocklist_update_error">Erro ao atualizar a lista: %s</string>
-    <string name="blocklist_update_error_404">Erro ao atualizar a lista %s: URL não encontrado</string>
+    <string name="blocklist_update_error">Erro ao atualizar a lista %s</string>
     <!-- not used any more, generic error for all non-successful codes -->
     <string name="blocklist_update_error_code">Erro ao atualizar a lista %1$s: código de estado %2$s</string>
     <string name="add_blocklist">Adicionar ficheiro de filtros</string>
     <string name="add_blocklist_hint">Pode escolher listas de filtros ou adicionar uma lista compatível com a sintaxe AdBlockPlus</string>
-    <string name="enable_blocklist">Ativar esta lista</string>
     <string name="invalid_title">Titulo inválido</string>
     <string name="invalid_url">URL inválido</string>
-    <string name="blocklist_built_in">Filtros integrados</string>
     <string name="blocklist_remove">Remover ficheiro de filtros</string>
     <string name="blocklist_remove_confirm">Tem a certeza de que deseja remover %s?</string>
     <string name="local_file">Local</string>
@@ -196,8 +167,8 @@
     <!-- Common actions -->
     <string name="action_message_canceled">Ação cancelada</string>
     <!-- SSL warnings -->
-    <string name="ssl_warning_dont_ask_again">Não voltar a perguntar durante esta sessão.</string>
-    <string name="message_insecure_connection">A ligação a este site não é segura:\n%1$s\nContinuar?</string>
+    <string name="message_ssl_error_aborted">Security error! Page loading aborted.</string>
+    <string name="message_ssl_error">Secure connection compromised:\n<xliff:g id="domain_name" example="my.example.com"><b>%1$s</b></xliff:g>\n\n<xliff:g id="error_list" example="Certificate is invalid">%2$s</xliff:g>Do you still want to proceed?</string>
     <string name="message_certificate_date_invalid">Data de certificado inválida</string>
     <string name="message_certificate_expired">Certificado expirado</string>
     <string name="message_certificate_domain_mismatch">Domínio do certificado não coincide com o domínio do site</string>
@@ -254,7 +225,6 @@
     <string name="name_inverted_grayscale">Escala de cinzento invertida</string>
     <string name="name_increase_contrast">Aumentar contraste</string>
     <string name="name_normal">Normal</string>
-    <string name="sync_history">Sincronizar histórico com Google</string>
     <string name="title_file_chooser">Seletor de ficheiros</string>
     <string name="library_netcipher">NetCipher</string>
     <string name="license_gnu">GNU Lesser General Public License</string>
@@ -281,7 +251,11 @@
     <string name="settings_about">Acerca</string>
     <string name="settings_contribute">Participar</string>
     <string name="settings_summary_contribute">Ajudar Fulguris a crescer</string>
-    <string name="pref_category_general">Geral</string>
+    <string name="settings_title_privacy_policy">Política de privacidade</string>
+    <string name="settings_summary_privacy_policy">Consulte nossa política de privacidade</string>
+    <string name="settings_title_terms_and_conditions">Termos e condições</string>
+    <string name="settings_summary_terms_and_conditions">Consulte nossos termos e condições</string>
+    <string name="settings_summary_discord">Join our growing community</string>
     <string name="pref_category_panels">Painéis</string>
     <string name="pref_category_webpage">@string/action_webpage</string>
     <string name="pref_category_landscape">Horizontal</string>
@@ -292,6 +266,14 @@
     <string name="pref_category_on_tab_close">Ao fechar separador</string>
     <string name="pref_category_on_tab_change">Ao alterar de separador</string>
     <string name="pref_category_on_tab_back_forward">Ao recuar ou avançar</string>
+    <string name="settings_category_on_follow_link">When following a link</string>
+    <string name="pref_category_scrollbars">Barras de deslocação</string>
+    <string name="settings_title_tab">Tab</string>
+    <string name="settings_title_page_history">Page history</string>
+    <string name="settings_summary_tab">Animations, feedback and appearance</string>
+    <string name="pref_summary_scrollbars">Tamanho e comportamento das barras de deslocação</string>
+    <string name="pref_category_subscriptions">Subscrições</string>
+    <string name="pref_summary_subscriptions">Ativar ou cancelar subscrições</string>
     <string name="pref_title_hide_status_bar">Ocultar barra de estado</string>
     <string name="pref_title_hide_tool_bar">Ocultar barra de ferramentas ao deslocar para baixo</string>
     <string name="pref_title_show_tool_bar_when_scroll_up">Mostrar barra de ferramentas ao deslocar para cima</string>
@@ -327,19 +309,15 @@
     <string name="pref_summary_contribute_share">Informe os seus amigos e colegas partilhando a aplicação.</string>
     <string name="pref_title_language">Idioma</string>
     <string name="language_system_default">Padrão do sistema</string>
-    <string name="settings_about_explain">Detalhes da versão, da atualização, do autor e da licença.</string>
     <string name="close_tab">Fechar separador</string>
     <string name="close_all_tabs">Fechar todos os separadores</string>
     <string name="close_other_tabs">Fechar os outros separadores</string>
-    <string name="third_party">Bloquear cookies de terceiros</string>
     <string name="color_mode">Modo de cor</string>
     <string name="reading_mode">Modo de leitura</string>
     <string name="loading">A carregar&#8230;</string>
-    <string name="loading_failed">A página não foi carregada.</string>
     <string name="snacktory">Snacktory</string>
     <string name="jsoup">jsoup: Java HTML Parser</string>
     <string name="mit_license">MIT License</string>
-    <string name="url_contents">Conteúdo da caixa do URL</string>
     <string name="search_in_new_tab">Pesquisa em novo separador</string>
     <string name="url_in_new_tab">URL em novo separador</string>
     <string name="homepage_in_new_tab">Página inicial em novo separador</string>
@@ -352,12 +330,6 @@
     <string name="text_encoding">Codificação do texto</string>
     <string name="reset_settings">Repor definições</string>
     <string name="reset_settings_confirmation">Está prestes a perder todas as suas definições. Tem a certeza de que deseja continuar?</string>
-    <string-array name="url_content_array">
-        <item>Domínio (padrão)</item>
-        <item>URL</item>
-        <item>Título</item>
-        <item>URL reduzido</item>
-    </string-array>
     <string name="invert_color">Inverter cores</string>
     <string name="settings_black_status_bar">Barra de estado escura</string>
     <string name="tabs">Separadores</string>
@@ -368,21 +340,22 @@
     <string name="default_theme">@string/agent_default</string>
     <string name="folder">Nome da pasta</string>
     <string name="action_folder">Pasta</string>
-    <string name="action_rename">Renomear</string>
-    <string name="title_rename_folder">Renomear pasta</string>
-    <string name="dialog_folder">O que gostaria de fazer com esta pasta?</string>
+    <string name="title_rename_folder">Mudar nome da pasta</string>
     <string name="clear_web_storage">Limpar armazenamento web</string>
     <string name="clear_web_storage_exit">Limpar armazenamento web ao sair</string>
     <string name="message_web_storage_cleared">Armazenamento web removido</string>
-    <string name="hosts_source">Fonte do ficheiro hosts</string>
     <string name="settings_adblock">@string/block_ads</string>
     <string name="settings_summary_content_control">Bloqueio de anúncios e de conteúdos</string>
     <string name="settings_summary_content_control_toggle">Ativar bloqueador de anúncios e filtro de conteúdos</string>
-    <string name="settings_title_vertical_tab_bar">Barra de separadores vertical</string>
-    <string name="settings_summary_vertical_tab_bar">Desativa a opção para utilizar a barra horizontal</string>
-    <string name="settings_title_tab_bar_in_drawer">Tab bar in drawer</string>
-    <string name="settings_summary_tab_bar_in_drawer">Disable it to use static vertical tab bar</string>
-    <string name="settings_title_toolbars_bottom">Barra de ferramentas em cima</string>
+    <string name="settings_title_tab_bar_orientation">Tab bar orientation</string>
+    <string name="settings_summary_on_tab_bar_orientation">Vertical</string>
+    <string name="settings_summary_off_tab_bar_orientation">Horizontal</string>
+    <string name="settings_title_tab_bar_placement">Tab bar placement</string>
+    <string name="settings_summary_on_tab_bar_placement">Retractable panel</string>
+    <string name="settings_summary_off_tab_bar_placement">Always on screen</string>
+    <string name="settings_title_toolbars_position">Toolbars position</string>
+    <string name="settings_summary_on_toolbars_position">Bottom</string>
+    <string name="settings_summary_off_toolbars_position">Top</string>
     <string name="settings_title_desktop_mode_default">Modo desktop</string>
     <string name="settings_summary_desktop_mode_default">Define que os novos separadores utilizam o modo desktop</string>
     <string name="settings_title_dark_mode_default">Impor tema escuro</string>
@@ -398,7 +371,6 @@
     <string name="message_added_to_homescreen">Atalho adicionado ao ecrã</string>
     <string name="shortcut_message_failed_to_add">Lamentamos mas o seu launcher não permite atalhos.</string>
     <string name="action_delete_all_bookmarks">Apagar todos os marcadores</string>
-    <string name="flash_not_supported">Flash Player não é suportado pelo seu sistema</string>
     <string name="message_open_download_fail">Este ficheiro já não existe</string>
     <string name="faq">FAQ</string>
     <string name="faq_description">Perguntas frequentes</string>
@@ -407,36 +379,30 @@
     <string name="debug_leak_canary">LeakCanary</string>
     <string name="app_restart">Por favor, reinicie a aplicação para aplicar as alterações</string>
     <string name="pref_title_crash_logs">Relatórios de erro</string>
-    <string name="pref_summary_crash_logs">Escrever relatórios no sistema de ficheiros.\nToque para abrir a pasta. Ao reportar um erro, envio o ficheiro de registo correspondente.</string>
+    <string name="pref_summary_crash_logs">Escrever relatórios no sistema de ficheiros.\nToque para abrir a pasta. Ao reportar um erro, envie o ficheiro de registo correspondente.</string>
+    <string name="pref_title_logs">Logs</string>
+    <string name="pref_summary_on_logs">Enabled</string>
+    <string name="pref_summary_off_logs">Disabled</string>
+    <string name="pref_title_log_level">Log level</string>
     <!-- Dialogs -->
     <string name="dialog_open_new_tab">Abrir em novo separador</string>
-    <string name="dialog_open_background_tab">Abrir em separador de fundo</string>
+    <string name="dialog_open_background_tab">Abrir em separador secundário</string>
     <string name="dialog_open_incognito_tab">Abrir em separador incógnito</string>
     <string name="dialog_remove_bookmark">Remover marcador</string>
     <string name="dialog_edit_bookmark">Editar marcador</string>
     <string name="dialog_title_bookmark">Marcador</string>
     <string name="dialog_remove_from_history">Remover do histórico</string>
-    <string name="dialog_download_image">Descarregar imagem</string>
     <string name="dialog_copy_link">Copiar ligação</string>
     <string name="dialog_copy_text">Copiar texto</string>
     <string name="dialog_rename_folder">Renomear pasta</string>
     <string name="dialog_remove_folder">Remover pasta</string>
     <string name="dialog_title_close_browser">Fechar navegador</string>
-    <string name="dialog_delete_download">Apagar descarga</string>
     <string name="dialog_delete_all_downloads">Apagar todas as descargas</string>
     <!-- Tools dialog -->
     <string name="dialog_tools_title">Ferramentas da página</string>
     <string name="dialog_toggle_desktop">Alternar agente de utilizador</string>
-    <string name="dialog_adblock_enable_for_site">Ativar bloqueio de anúncios para este site</string>
-    <string name="dialog_adblock_disable_for_site">Desativar bloqueio de anúncios para este site</string>
     <!-- Search Engines -->
     <string name="search_engine_custom">URL personalizado</string>
-    <string name="search_engine_duckduckgo_lite_no_js">DuckDuckGo Lite - Sem JavaScript</string>
-    <string name="search_engine_duckduckgo_lite">DuckDuckGo Lite</string>
-    <string name="search_engine_duckduckgo_no_js">DuckDuckGo - Sem JavaScript</string>
-    <string name="search_engine_qwant_lite">Qwant Lite</string>
-    <string name="search_engine_startpage_mobile">StartPage Mobile</string>
-    <string name="search_engine_yahoo_no_js">Yahoo - Sem JavaScript</string>
     <!-- Notifications -->
     <plurals name="notification_incognito_running_title">
         <item quantity="one">%1$d separador incógnito aberto</item>
@@ -446,25 +412,69 @@
     <string name="notification_incognito_running_description">Notificação permanente do modo incógnito</string>
     <string name="infinity">∞</string>
     <!-- SSL -->
-    <string name="ssl_info_issued_by">Emitido por</string>
-    <string name="ssl_info_issued_to">Emitido para</string>
-    <string name="ssl_info_issued_on">Emitido em</string>
-    <string name="ssl_info_expires_on">Caduca a</string>
+    <string name="ssl_info_issued_by">Emitido por:</string>
+    <string name="ssl_info_issued_to">Emitido para:</string>
+    <string name="ssl_info_issued_on">Emitido em:</string>
+    <string name="ssl_info_expires_on">Caduca a:</string>
     <!-- Search in page -->
     <string name="next">Seguinte</string>
     <string name="previous">Anterior</string>
     <string name="close">Fechar</string>
     <string name="exit">Sair</string>
     <!-- Frozen tabs -->
-    <string name="tab_frozen">Congelados…</string>
     <!-- Search -->
     <string name="search_insert_suggestion">Inserir sugestão</string>
     <string name="action_close_all_other_tabs">Fechar os outros separadores</string>
     <string name="action_restore_all_tabs">Restaurar todos os separadores</string>
     <string name="action_restore_tab">Restaurar separador</string>
-    <string name="settings_summary_apps">Ativar aplicações externas</string>
-    <string name="settings_title_apps">Aplicações</string>
-    <string name="settings_app_prefix">aplicação para</string>
+    <string name="settings_title_domains">Domínios</string>
+    <string name="settings_summary_domains">Gerir definições de domínios</string>
+    <string name="settings_title_resource_domains">Domínios de recurso</string>
+    <string name="settings_title_override">Substituir</string>
+    <string name="settings_summary_on_override">Substituir definições principais</string>
+    <string name="settings_summary_off_override">Utilizar definições principais</string>
+    <string name="settings_title_launch_app">Abrir aplicação</string>
+    <string name="settings_title_category">Categoria</string>
+    <string name="settings_summary_on_category">Domínio principal</string>
+    <string name="settings_summary_off_category">Domínio de recurso</string>
+    <string name="action_domain_settings">Domínio</string>
+    <string name="settings_title_domains_delete_all">Eliminar tudo</string>
+    <string name="settings_summary_domains_delete_all">Eliminar todas as definições</string>
+    <string name="question_delete_all_domain_settings">Eliminar todas as definições?</string>
+    <string name="settings_title_delete_domain_settings">Eliminar definições de domínio</string>
+    <string name="settings_summary_delete_domain_settings">As definições serão recriadas assim que este domínio for encontrado</string>
+    <string name="settings_title_parent">Principal</string>
+    <string name="settings_summary_default_domain_settings">Definições padrão de domínios</string>
+    <string name="settings_title_ssl_error">Security error</string>
+    <string name="settings_summary_ssl_error">What to do when an SSL error is detected</string>
+    <string name="checkbox_remember_domain_choice">Remember your choice for this domain</string>
+    <string name="settings_title_third_party_cookies">Third-party cookies</string>
+    <string name="settings_summary_on_third_party_cookies">Accept cookies used to track your activities across websites</string>
+    <string name="settings_summary_off_third_party_cookies">Reject cookies used to track your activities across websites</string>
+    <string name="settings_title_javascript">JavaScript</string>
+    <string name="settings_summary_on_javascript">All websites\' and browser\'s features should work</string>
+    <string name="settings_summary_off_javascript">Some websites\' and browser\'s features won\'t work</string>
+    <string name="settings_title_cookies">Cookies</string>
+    <string name="settings_summary_cookies">Current page has no cookies</string>
+    <string name="settings_summary_manage_cookies">Manage current page cookies</string>
+    <string name="settings_title_cookies_delete_all">Delete all</string>
+    <string name="settings_summary_cookies_delete_all">Delete all cookies for current page</string>
+    <string name="question_delete_all_page_cookies">Delete all cookies for current page?</string>
+    <plurals name="settings_summary_cookies">
+        <!--
+Zero ain't working for english.
+See: https://stackoverflow.com/a/42884713/3969362
+-->
+        <!-- <item quantity="zero">Current page has no cookies</item> -->
+        <item quantity="one">Current page has one cookie</item>
+        <item quantity="other">Current page has <xliff:g id="cookies_count" example="2">%d</xliff:g> cookies</item>
+    </plurals>
+    <string name="settings_title_task_label">Task label</string>
+    <string name="settings_title_task_icon">Task icon</string>
+    <string name="settings_summary_on_task_icon">Use page icon</string>
+    <string name="settings_summary_off_task_icon">Use app icon</string>
+    <string name="settings_title_toolbar_label">Toolbar label</string>
+    <!--  TODO: Remove that -->
     <string name="dialog_title_third_party_app">Aplicação externa disponível</string>
     <string name="dialog_message_third_party_app">Deseja abrir a aplicação associada a este site web?</string>
     <string name="per_month">\u0020/ mês</string>
@@ -475,7 +485,7 @@
     <string name="session_already_exists">Já existe uma sessão com este nome.</string>
     <string name="session_cant_delete_current">Não foi possível apagar a sessão!</string>
     <string name="session_prompt_confirm_deletion_title">Confirmar eliminação</string>
-    <string name="session_prompt_confirm_deletion_message">Tem certeza que deseja eliminar a sessão \"%s\"?</string>
+    <string name="session_prompt_confirm_deletion_message">Are you sure you want to delete session \"<xliff:g id="session_name" example="Shopping">%s</xliff:g>\"?</string>
     <string name="session_switched">Trocar para %s</string>
     <string name="busy">Ocupado, tente mais tarde.</string>
     <string name="invalid_character_removed">Carácter inválido removido!</string>
@@ -491,7 +501,6 @@
     Long press on image link disambiguation:
         When user does a long press on a page element containing both an image and link we ask her which one she wants to use.
      -->
-    <string name="question_what_do_you_want_to_use">O que pretende fazer?</string>
     <string name="button_link">Ligação</string>
     <string name="button_image">Imagem</string>
     <!-- Displayed in snackbar to notify user a tab was closed -->
@@ -505,14 +514,22 @@
     <string name="pref_title_show_animation">Mostrar animação</string>
     <string name="pref_title_vibrate">Vibrar</string>
     <string name="pref_title_duration">Duração</string>
-    <string name="pref_summary_duration">Duração da animação em centissegundos</string>
+    <string name="settings_title_animation_duration">Animation duration</string>
+    <string name="pref_title_scrollbar_fading">Desvanecimento</string>
+    <string name="pref_summary_on_scrollbar_fading">Desvanecer barras de deslocação</string>
+    <string name="pref_summary_off_scrollbar_fading">Mostrar sempre barras de deslocação</string>
+    <string name="pref_title_scrollbar_delay_before_fade">Atraso antes de desvanecer</string>
+    <string name="pref_summary_scrollbar_delay_before_fade">Tempo após o qual as barras começam a desvanecer</string>
+    <string name="pref_title_scrollbar_fade_duration">Duração do desvanecimento</string>
+    <string name="pref_summary_scrollbar_fade_duration">Tempo que demora para que as barras desvaneçam</string>
+    <string name="pref_title_scrollbar_size">Tamanho</string>
+    <string name="pref_summary_scrollbar_size">Defina a largura e a altura das barras de deslocação</string>
     <string name="pref_category_title_session_export">Exportar sessão</string>
     <string name="pref_category_summary_session_export">Escolha a sessão que pretende exportar</string>
     <string name="error_session_file_corrupted">Erro: ficheiro de sessão danificado!</string>
     <string name="error_recovery_session">Erro: foi criada uma sessão de recuperação!</string>
     <string name="message_session_imported">Sessão importada: <xliff:g id="session_name" example="News">%s</xliff:g></string>
     <string name="message_session_exported">Sessão exportada: <xliff:g id="session_name" example="Cooking">%s</xliff:g></string>
-    <string name="show_ssl">Mostrar avisos SSL</string>
     <string name="start_incognito">Iniciar sempre no modo incógnito</string>
     <string name="force_zoom_summary">Não funciona se JavaScript não estiver ativado</string>
     <string name="force_zoom">Impor zoom para os sites</string>
@@ -525,13 +542,6 @@
     <string name="long_press_tab">Toque longo no ícone \"Separador\" abre um novo separador</string>
     <string name="pref_title_close_drawer">Fechar painel</string>
     <string name="pref_summary_close_drawer">Fechar painel após criar ou remover um separador</string>
-    <string name="block_javascript">Bloquear JavaScript para este site</string>
-    <string name="block_sites_title">Separe os sites com vírgulas</string>
-    <string name="listed_javascript">Apenas permitir JavaScript nos sites listados</string>
-    <string name="unlisted_javascript">Bloquear JavaScript para os sites listados</string>
-    <string name="allow_javascript">Permitir JavaScript para este site</string>
-    <string name="blocked_javascript">Bloquear JavaScript para este site</string>
-    <string name="page_source">Ver código-fonte da página</string>
     <string name="inspect">Injetar JavaScript</string>
     <string name="edit_cookies">Mostrar cookies do site</string>
     <string name="site_cookies">Cookies do site</string>
@@ -561,8 +571,6 @@
     <string name="settings_exported">Definições exportadas:</string>
     <string name="settings_reseted">Definições restauradas</string>
     <string name="suggest">Sugestões de pesquisa (número)</string>
-    <string name="error_tip">• Verifique se existem erros de introdução no endereço tais como ww.site.com em vez de www.site.com</string>
-    <string name="error_tip2">• Se não estiver a conseguir carregar quaisquer páginas, verifique as suas ligações de rede.</string>
     <string name="action_cycle_tabs_forwards">Percorrer separadores para a frente</string>
     <string name="action_cycle_tabs_backwards">Percorrer separadores para trás</string>
     <string name="action_focus_address_bar">Focar barra de endereço</string>
@@ -580,4 +588,18 @@
     <string name="action_switch_to_tab">Trocar entre separador 1 a 9</string>
     <string name="action_switch_to_last_tab">Trocar para o último separador</string>
     <string name="action_switch_to_last_session">Trocar para a última sessão</string>
+    <string name="log_level_verbose">Verbose</string>
+    <string name="log_level_debug">Debug</string>
+    <string name="log_level_info">Info</string>
+    <string name="log_level_warn">Warn</string>
+    <string name="log_level_error">Error</string>
+    <string name="log_level_assert">Assert</string>
+    <!-- TODO: link to existing strings -->
+    <string name="label_url">URL</string>
+    <string name="label_short_url">Short URL</string>
+    <string name="label_domain">Domain</string>
+    <string name="label_title">Title</string>
+    <string name="label_session">Session</string>
+    <string name="label_app_name">App name</string>
+    <string name="message_render_process_crashed">Render process crashed. You may need to reload some web pages.</string>
 </resources>

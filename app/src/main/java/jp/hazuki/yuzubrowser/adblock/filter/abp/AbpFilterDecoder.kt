@@ -16,10 +16,9 @@
 
 package jp.hazuki.yuzubrowser.adblock.filter.abp
 
-import acr.browser.lightning.adblock.RES_EMPTY
-import acr.browser.lightning.adblock.RES_NOOP_MP4
+import fulguris.adblock.RES_EMPTY
+import fulguris.adblock.RES_NOOP_MP4
 import androidx.core.net.toUri
-import jp.hazuki.yuzubrowser.adblock.*
 import jp.hazuki.yuzubrowser.adblock.core.ContentRequest
 import jp.hazuki.yuzubrowser.adblock.filter.unified.*
 import jp.hazuki.yuzubrowser.adblock.filter.unified.ModifyFilter.Companion.REMOVEHEADER_NOT_ALLOWED
@@ -27,7 +26,6 @@ import jp.hazuki.yuzubrowser.adblock.filter.unified.ModifyFilter.Companion.RESPO
 import jp.hazuki.yuzubrowser.adblock.filter.unified.element.*
 import java.io.BufferedReader
 import java.nio.charset.Charset
-import java.util.*
 import java.util.regex.Pattern
 
 class AbpFilterDecoder {
@@ -372,7 +370,8 @@ class AbpFilterDecoder {
 
         val abpFilter =
             if (filter.length >= 2 && filter[0] == '/' && filter[filter.lastIndex] == '/' && filter.mayContainRegexChars()) {
-                RegexFilter(filter.substring(1, filter.lastIndex), contentType, ignoreCase, domains, thirdParty, modify)
+                try { RegexFilter(filter.substring(1, filter.lastIndex), contentType, ignoreCase, domains, thirdParty, modify) }
+                catch (e: Exception) { return }
             } else {
                 val isStartsWith = filter.startsWith("||")
                 val isEndWith = filter.endsWith('^')

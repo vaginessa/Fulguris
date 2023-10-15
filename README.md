@@ -1,33 +1,50 @@
 # Fulguris
-⚡Sparkling Android Web Browser⚡
+[![Discord Invite](https://img.shields.io/discord/828559272752840713?color=%23525dea&label=Chat&logo=discord&logoColor=white)](https://discord.com/invite/7M4Ms5dMZE)
 
-[![Build Fulguris Google Play](https://github.com/Slion/Fulguris/actions/workflows/build-main-fulguris-google-play.yml/badge.svg)](https://github.com/Slion/Fulguris/actions/workflows/build-main-fulguris-google-play.yml)\
-[![Build Fulguris Download](https://github.com/Slion/Fulguris/actions/workflows/build-main-fulguris-download.yml/badge.svg)](https://github.com/Slion/Fulguris/actions/workflows/build-main-fulguris-download.yml)\
-[![Build Styx](https://github.com/Slion/Fulguris/actions/workflows/build-main-styx.yml/badge.svg)](https://github.com/Slion/Fulguris/actions/workflows/build-main-styx.yml)
+Fulguris is a [web browser] for Android. Through a customizable interface it offers a premium experience on a range of Android, Chromebooks and Windows 11 devices.
 
-# Download
+# Builds
+[![Google Play](https://github.com/Slion/Fulguris/actions/workflows/build-main-fulguris-google-play.yml/badge.svg)](https://github.com/Slion/Fulguris/actions/workflows/build-main-fulguris-google-play.yml)
+[![Download](https://github.com/Slion/Fulguris/actions/workflows/build-main-fulguris-download.yml/badge.svg)](https://github.com/Slion/Fulguris/actions/workflows/build-main-fulguris-download.yml)
+[![F-Droid](https://github.com/Slion/Fulguris/actions/workflows/build-main-fulguris-fdroid.yml/badge.svg)](https://github.com/Slion/Fulguris/actions/workflows/build-main-fulguris-fdroid.yml)
+[![Rebrand](https://github.com/Slion/Fulguris/actions/workflows/build-main-styx.yml/badge.svg)](https://github.com/Slion/Fulguris/actions/workflows/build-main-styx.yml)
+
+# Downloads
 
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
      alt="Get it on Google Play"
      height="80">](https://play.google.com/store/apps/details?id=net.slions.fulguris.full.playstore)
+[<img src="https://slions.net/badge-get-it-on.png"
+     alt="Get it on Slions"
+     height="80">](http://fulguris.slions.net)
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
      height="80">](https://f-droid.org/packages/net.slions.fulguris.full.fdroid/)
 
-[Get it on Slions.net.](http://fulguris.slions.net)
-
 ## Release channels
-We have three official release channels linked above. The **Download** release channel tends to be somewhat less stable than the **Google Play** and **F-Droid** release channels. On the other hand you get to test the latest version earlier when using the **Download** release channel. All three variants of the app can be installed at the same time on your device. They are effectively three different albeit similar apps. You can differenciate them in your launcher from their slightly modified icon design.
+We have three official public release channels linked above and described below. While we strive to produce stable releases, the Fulguris project is a very small operation. Ultimately the community is responsible for doing the testing and validation of releases. All three variants of the app can be installed at the same time on your device. They are effectively three distinct similar apps. You can differenciate them in your launcher from their slightly modified icon design. Which versions you use and how you manage your updates will define your experience with Fulguris. Update often to help catch bugs before they reach too many users. Wait a couple of weeks and check for known issues before updating if you want to have fewer surprises and a more stable experience.
 
-* **Google Play**: stable releases.
-* **F-Droid**: stable releases. 
-* **Download**: release candidates and stable releases.
+### 🟢 Google Play
+
+Considered the most stable release channel. Optional [Firebase] statistics and crash report.
+If you have more than twenty tabs in a session, it will gently remind you to go for the low cost yearly subscription, every time you open a new tab.
+
+### 🟡 Download 
+
+Provides release candidates and stable releases. Optional [Firebase] statistics and crash report.
+Unlimited tabs without subscription. From here you get the most up to date versions.
+
+### 🟠 F-Droid
+
+Provides release candidates and stable releases. No [Firebase] statistics and crash report. Unlimited tabs without subscription.
+We have no direct control of the release schedule on this channel. If a broken release reaches it, it may take a couple of weeks to fix it.
+
 
 # Contribute
 
 ## Test
 
-The best way to contribute is to actually use Fulguris. There is no beta test program yet. However releases tend to be published more often on [Slions.net] and it is easy to switch back to an [earlier version] if needed.
+The best way to contribute is to use Fulguris. There is no beta test program yet. However releases tend to be published more often on [Slions.net] and it is easy to switch back to an [earlier version] if needed.
 Please report issues on [GitHub](https://github.com/slion/fulguris/issues).
 
 ## Rate
@@ -98,3 +115,5 @@ The ability of this project to finance itself is what will ultimately determine 
 [Google Play]: https://play.google.com/store/apps/details?id=net.slions.fulguris.full.playstore
 [our forums]: https://slions.net
 [Discord]: https://discord.com/invite/7M4Ms5dMZE
+[Web browser]: https://en.wikipedia.org/wiki/Web_browser
+[Firebase]: https://firebase.google.com
