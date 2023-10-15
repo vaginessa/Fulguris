@@ -1,4 +1,4 @@
-# Fulguris
+# Fulguris  
 [![Discord Invite](https://img.shields.io/discord/828559272752840713?color=%23525dea&label=Chat&logo=discord&logoColor=white)](https://discord.com/invite/7M4Ms5dMZE)
 
 Fulguris is a [web browser] for Android. Through a customizable interface it offers a premium experience on a range of Android, Chromebooks and Windows 11 devices.
