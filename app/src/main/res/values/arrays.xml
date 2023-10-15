@@ -41,12 +41,6 @@
         <item>@string/new_tab_position_end_value</item>
     </string-array>
 
-    <string-array name="block_javascript">
-        <item>@string/no</item>
-        <item>@string/unlisted_javascript</item>
-        <item>@string/listed_javascript</item>
-    </string-array>
-
     <string-array name="suggestion_name_array">
         <item>@string/two</item>
         <item>@string/three</item>
@@ -57,6 +51,39 @@
         <item>@string/eight</item>
         <item>@string/nine</item>
         <item>@string/ten</item>
+    </string-array>
+
+    <string-array name="NoYesAsk">
+        <item>@string/action_no</item>
+        <item>@string/action_yes</item>
+        <item>@string/action_ask</item>
+    </string-array>
+
+    <string-array name="HeaderInfo">
+        <item>@string/label_url</item>
+        <item>@string/label_short_url</item>
+        <item>@string/label_domain</item>
+        <item>@string/label_title</item>
+        <item>@string/label_session</item>
+        <item>@string/label_app_name</item>
+    </string-array>
+
+
+
+
+    <string-array name="AbortProceedAsk">
+        <item>@string/action_abort</item>
+        <item>@string/action_proceed</item>
+        <item>@string/action_ask</item>
+    </string-array>
+
+    <string-array name="LogLevel">
+        <item>@string/log_level_verbose</item>
+        <item>@string/log_level_debug</item>
+        <item>@string/log_level_info</item>
+        <item>@string/log_level_warn</item>
+        <item>@string/log_level_error</item>
+        <item>@string/log_level_assert</item>
     </string-array>
 
 </resources>

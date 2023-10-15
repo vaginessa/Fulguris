@@ -3,12 +3,12 @@
     <string name="action_reload">再読み込み</string>
     <string name="action_menu">メニュー</string>
     <string name="action_new_tab">新しいタブ</string>
+    <string name="action_duplicate_tab">Duplicate tab</string>
     <string name="action_share">共有</string>
     <string name="action_history">履歴</string>
     <string name="action_bookmarks">ブックマーク</string>
     <string name="action_downloads">ダウンロード</string>
     <string name="action_add_bookmark">ブックマークに追加</string>
-    <string name="action_copy">ページの URL をコピー</string>
     <string name="action_forward">進む</string>
     <string name="action_sessions">セッション</string>
     <string name="action_new_session">新しいセッション</string>
@@ -17,13 +17,11 @@
     <string name="enable">有効化</string>
     <string name="disable">無効化</string>
     <string name="settings">設定</string>
+    <string name="options">オプション</string>
     <string name="location">位置情報の使用を許可する</string>
     <string name="password">パスワードを記憶する</string>
     <string name="agent">ユーザーエージェント</string>
-    <string name="flash">Adobe Flash を有効にする</string>
     <string name="home">ホームページ</string>
-    <string name="fullscreen">全画面モード</string>
-    <string name="java">JavaScript を有効にする</string>
     <string name="download">ダウンロードフォルダ</string>
     <string name="settings_advanced">詳細</string>
     <string name="version">アプリのバージョン</string>
@@ -33,7 +31,6 @@
     <string name="show">表示</string>
     <string name="cache">終了時にキャッシュを消去する</string>
     <string name="reflow">テキストを右端で折り返す</string>
-    <string name="block">画像を読み込まない</string>
     <string name="load_images">画像の読み込み</string>
     <string name="window">サイトが新しいタブを開くことを許可する</string>
     <string name="cookies">Cookie を有効にする</string>
@@ -44,20 +41,11 @@
     <string name="search_action">@string/search_hint</string>
     <string name="overViewMode">Overview mode でページを読み込む</string>
     <string name="restore_tabs_on_startup">前回終了時のタブをアプリ起動時に復元する</string>
-    <string name="supported_browsers_title">サポートしているブラウザ</string>
-    <string name="stock_browser">標準ブラウザ</string>
-    <string name="stock_browser_unavailable">標準ブラウザが見つかりません</string>
-    <string name="stock_browser_available">サポートしている標準ブラウザが見つかりました</string>
-    <string name="fullScreenOption">ステータスバーを非表示にする</string>
     <string name="clear_cookies">Cookie を消去する</string>
     <string name="clear_history">履歴を消去する</string>
-    <string name="dialog_image">この画像をどうしますか?</string>
     <string name="action_download">ダウンロード</string>
     <string name="action_open">開く</string>
-    <string name="dialog_link">このリンクをどうしますか?</string>
     <string name="dialog_title_share">このページを共有します</string>
-    <string name="dialog_history_long_press">この履歴項目をどうしますか?</string>
-    <string name="dialog_bookmark">このブックマークをどうしますか?</string>
     <string name="action_delete">削除</string>
     <string name="action_blank">空白ページ</string>
     <string name="agent_android_mobile">Android (モバイル)</string>
@@ -77,7 +65,6 @@
     <string name="unknown_size">サイズ不明</string>
     <string name="action_cancel">キャンセル</string>
     <string name="title_warning">警告</string>
-    <string name="dialog_adobe_not_installed">Adobe Flash Player が見つかりません\nFlash Player をインストールしてください</string>
     <string name="title_user_agent">ユーザーエージェント</string>
     <string name="title_download_location">ダウンロードフォルダ</string>
     <string name="title_custom_homepage">カスタムホームページ</string>
@@ -89,23 +76,22 @@
     <string name="dialog_cookies">すべての Cookie を消去しますか?</string>
     <string name="action_yes">はい</string>
     <string name="action_no">いいえ</string>
+    <string name="action_ask">尋ねる</string>
+    <string name="action_proceed">Proceed</string>
+    <string name="action_abort">Abort</string>
     <string name="title_text_size">文字サイズ</string>
-    <string name="size_largest">最大</string>
-    <string name="size_large">大</string>
-    <string name="size_normal">標準</string>
-    <string name="size_small">小</string>
-    <string name="size_smallest">最小</string>
     <string name="title_error">エラー</string>
-    <string name="dialog_import_error">ブックマークをインポートするブラウザが見つかりません</string>
     <string name="hint_title">タイトル</string>
     <string name="hint_url">URL</string>
     <string name="title_edit_bookmark">ブックマークを編集する</string>
     <string name="action_edit">編集</string>
     <string name="action_incognito">新しいシークレットタブ</string>
-    <string name="action_homepage">デフォルト</string>
     <string name="action_show_homepage">ホームページを表示</string>
     <string name="action_back">戻る</string>
     <string name="action_find">ページ内を検索</string>
+    <string name="action_find_next">次を検索</string>
+    <string name="action_find_previous">前を検索</string>
+    <string name="action_find_selection">選択範囲を検索</string>
     <string name="action_print">印刷</string>
     <string name="action_translate">翻訳</string>
     <string name="downloads">ダウンロード</string>
@@ -122,9 +108,6 @@
     <string name="download_failed">ダウンロード失敗</string>
     <string name="incognito_cookies">シークレットタブで Cookie を有効にする</string>
     <string name="incognito_cookies_pie">シークレットモードは各セッション後に初期化される隔離されたプロセスで実行されます。シークレットモードのクッキーは標準のクッキー設定で制御されています。</string>
-    <string name="title_flash">Adobe Flash</string>
-    <string name="action_manual">手動</string>
-    <string name="action_auto">自動</string>
     <string name="pref_title_contact_us">お問い合わせ</string>
     <string name="clear_cache">キャッシュを消去する</string>
     <string name="message_cache_cleared">キャッシュを消去しました</string>
@@ -144,24 +127,15 @@
     <string name="message_welcome">このパワフルなWebブラウザの詳細については、ホームページをご覧ください。</string>
     <!-- Ad block -->
     <string name="block_ads">コンテンツ制御</string>
-    <string name="block_ad_source">ホストファイルのソース</string>
-    <string name="block_ad_remote_refresh_frequency_description">リモートホストファイル</string>
-    <string name="block_ad_refresh_now">今すぐホストを更新</string>
     <string name="block_remote_frequency_daily">毎日</string>
     <string name="block_remote_frequency_weekly">毎週</string>
     <string name="block_remote_frequency_monthly">毎月</string>
-    <string name="block_source_default">デフォルトのホスト</string>
-    <string name="block_source_local">ローカルホストファイル</string>
-    <string name="block_source_local_description">ファイル：%1$s</string>
-    <string name="block_source_remote">リモートホストファイル</string>
-    <string name="block_source_remote_description">URL：%1$s</string>
-    <string name="ad_block_load_failure">広告ブロックソースからホストを読み込めませんでした。</string>
     <!-- new ad blocker -->
     <string name="page_blocked">次のページがブロックされました:</string>
     <string name="page_blocked_reason">理由は以下の通りです</string>
     <string name="page_blocked_list_ad">フィルターリスト上の %s</string>
     <string name="page_blocked_list_user">%s はユーザールールによってブロックされました</string>
-    <string name="page_blocked_list_malware">%s on malware filters</string>
+    <string name="page_blocked_list_malware">マルウェアフィルターリスト上の %s</string>
     <string name="request_blocked">ブロックしたリクエスト数</string>
     <!-- settings for new ad blocker -->
     <string name="blocklist_update_mode">自動アップデート モード</string>
@@ -170,20 +144,17 @@
     <string name="blocklist_update_wifi">非従量課金接続時のみ</string>
     <string name="blocklist_update">フィルターの更新</string>
     <string name="blocklist_update_frequency">アップデートの頻度を設定</string>
-    <string name="blocklist_update_description">Updates will be done with the chosen frequency, unless the filters file specifies a longer interval</string>
+    <string name="blocklist_update_description">フィルターリストがより長い期間を指定していない限り、選択した更新頻度で更新は行われます。</string>
     <string name="blocklist_update_now">今すぐリストを更新</string>
     <string name="blocklist_last_update">最終更新: %s</string>
     <string name="blocklist_updating">アップデート中...</string>
     <string name="blocklist_update_error">フィルタ %s の更新中にエラーが発生しました</string>
-    <string name="blocklist_update_error_404">Error while updating filters list %s: url not found</string>
     <!-- not used any more, generic error for all non-successful codes -->
     <string name="blocklist_update_error_code">フィルタリスト %1$sの更新中にエラー: ステータスコード %2$s</string>
     <string name="add_blocklist">フィルタファイルを追加</string>
     <string name="add_blocklist_hint">AdBlockPlus ルールと互換性のあるホストリストまたは任意のリストを選択できます</string>
-    <string name="enable_blocklist">このリストを有効にする</string>
     <string name="invalid_title">無効なタイトル</string>
     <string name="invalid_url">無効なURL</string>
-    <string name="blocklist_built_in">内蔵フィルタ</string>
     <string name="blocklist_remove">フィルターを削除</string>
     <string name="blocklist_remove_confirm">本当にフィルターファイル %s を削除しますか？</string>
     <string name="local_file">ローカル</string>
@@ -196,8 +167,8 @@
     <!-- Common actions -->
     <string name="action_message_canceled">操作が取り消されました</string>
     <!-- SSL warnings -->
-    <string name="ssl_warning_dont_ask_again">このブラウジングセッションでは再度確認しないでください。</string>
-    <string name="message_insecure_connection">このサイトへの接続は安全ではありません:\n%1$s\nそれでも続行しますか?</string>
+    <string name="message_ssl_error_aborted">Security error! Page loading aborted.</string>
+    <string name="message_ssl_error">Secure connection compromised:\n<xliff:g id="domain_name" example="my.example.com"><b>%1$s</b></xliff:g>\n\n<xliff:g id="error_list" example="Certificate is invalid">%2$s</xliff:g>Do you still want to proceed?</string>
     <string name="message_certificate_date_invalid">証明書の日付が無効です</string>
     <string name="message_certificate_expired">証明書の期限が切れました</string>
     <string name="message_certificate_domain_mismatch">証明書のドメインとサイトのドメインが一致しません</string>
@@ -254,7 +225,6 @@
     <string name="name_inverted_grayscale">反転グレースケール</string>
     <string name="name_increase_contrast">高コントラスト</string>
     <string name="name_normal">通常</string>
-    <string name="sync_history">Google と履歴を同期する</string>
     <string name="title_file_chooser">ファイルの選択</string>
     <string name="library_netcipher">NetCipher</string>
     <string name="license_gnu">GNU Lesser General Public License</string>
@@ -281,7 +251,11 @@
     <string name="settings_about">このアプリについて</string>
     <string name="settings_contribute">貢献する</string>
     <string name="settings_summary_contribute">Fulgurisの成長と成功を助けます</string>
-    <string name="pref_category_general">全般</string>
+    <string name="settings_title_privacy_policy">プライバシーポリシー</string>
+    <string name="settings_summary_privacy_policy">プライバシーポリシーをオンラインで見る</string>
+    <string name="settings_title_terms_and_conditions">利用規約</string>
+    <string name="settings_summary_terms_and_conditions">オンラインで利用規約を見る</string>
+    <string name="settings_summary_discord">Join our growing community</string>
     <string name="pref_category_panels">パネル</string>
     <string name="pref_category_webpage">@string/action_webpage</string>
     <string name="pref_category_landscape">横</string>
@@ -292,6 +266,14 @@
     <string name="pref_category_on_tab_close">タブを閉じたとき</string>
     <string name="pref_category_on_tab_change">タブを変更するとき</string>
     <string name="pref_category_on_tab_back_forward">進むまたは戻る時</string>
+    <string name="settings_category_on_follow_link">When following a link</string>
+    <string name="pref_category_scrollbars">スクロールバー</string>
+    <string name="settings_title_tab">Tab</string>
+    <string name="settings_title_page_history">Page history</string>
+    <string name="settings_summary_tab">Animations, feedback and appearance</string>
+    <string name="pref_summary_scrollbars">スクロールバーのサイズと動作を調整する</string>
+    <string name="pref_category_subscriptions">講読</string>
+    <string name="pref_summary_subscriptions">購読を有効化・無効化する</string>
     <string name="pref_title_hide_status_bar">ステータスバーを隠す</string>
     <string name="pref_title_hide_tool_bar">下にスクロールしている間はツールバーを非表示にする</string>
     <string name="pref_title_show_tool_bar_when_scroll_up">上にスクロールするときにツールバーを表示する</string>
@@ -327,19 +309,15 @@
     <string name="pref_summary_contribute_share">Fulgurisを共有することで、あなたの友人やコミュニティを魅了します。</string>
     <string name="pref_title_language">言語</string>
     <string name="language_system_default">システムのデフォルト</string>
-    <string name="settings_about_explain">バージョン, 開発者, ライセンスなどの詳細</string>
     <string name="close_tab">現在のタブを閉じる</string>
     <string name="close_all_tabs">全てのタブを閉じる</string>
     <string name="close_other_tabs">他のタブを閉じる</string>
-    <string name="third_party">サードパーティ Cookie を拒否する</string>
     <string name="color_mode">カラーモードを有効にする</string>
     <string name="reading_mode">リーダーモード</string>
     <string name="loading">読み込み中&#8230;</string>
-    <string name="loading_failed">このページから何も読み出せませんでした</string>
     <string name="snacktory">Snacktory</string>
     <string name="jsoup">jsoup: Java HTML Parser</string>
     <string name="mit_license">MIT license</string>
-    <string name="url_contents">URL 欄の表示内容</string>
     <string name="search_in_new_tab">新しいタブで検索</string>
     <string name="url_in_new_tab">URLを新しいタブで開く</string>
     <string name="homepage_in_new_tab">新しいタブでホームページを開く</string>
@@ -352,12 +330,6 @@
     <string name="text_encoding">テキストエンコーディング</string>
     <string name="reset_settings">設定をリセット</string>
     <string name="reset_settings_confirmation">すべての設定が失われます。続行してもよろしいですか？</string>
-    <string-array name="url_content_array">
-        <item>ドメイン名 (デフォルト)</item>
-        <item>URL</item>
-        <item>タイトル</item>
-        <item>短縮されたURL</item>
-    </string-array>
     <string name="invert_color">色を反転する</string>
     <string name="settings_black_status_bar">ステータスバーを暗色にする</string>
     <string name="tabs">タブ</string>
@@ -368,21 +340,22 @@
     <string name="default_theme">@string/agent_default</string>
     <string name="folder">フォルダ名</string>
     <string name="action_folder">フォルダ</string>
-    <string name="action_rename">名前の変更</string>
     <string name="title_rename_folder">フォルダ名の変更</string>
-    <string name="dialog_folder">このフォルダをどうしますか?</string>
     <string name="clear_web_storage">Web storage を消去する</string>
     <string name="clear_web_storage_exit">終了時に Web storage を消去する</string>
     <string name="message_web_storage_cleared">Web storage を消去しました</string>
-    <string name="hosts_source">広告ブロック用の Hosts ファイルの取得元</string>
     <string name="settings_adblock">@string/block_ads</string>
     <string name="settings_summary_content_control">アドブロッカーとコンテンツフィルター</string>
     <string name="settings_summary_content_control_toggle">アドブロッカーとコンテンツフィルターを有効にする</string>
-    <string name="settings_title_vertical_tab_bar">タブをドロワーで表示する</string>
-    <string name="settings_summary_vertical_tab_bar">水平タブバーを使用するには無効にしてください</string>
-    <string name="settings_title_tab_bar_in_drawer">Tab bar in drawer</string>
-    <string name="settings_summary_tab_bar_in_drawer">Disable it to use static vertical tab bar</string>
-    <string name="settings_title_toolbars_bottom">下部に配置</string>
+    <string name="settings_title_tab_bar_orientation">Tab bar orientation</string>
+    <string name="settings_summary_on_tab_bar_orientation">Vertical</string>
+    <string name="settings_summary_off_tab_bar_orientation">Horizontal</string>
+    <string name="settings_title_tab_bar_placement">Tab bar placement</string>
+    <string name="settings_summary_on_tab_bar_placement">Retractable panel</string>
+    <string name="settings_summary_off_tab_bar_placement">Always on screen</string>
+    <string name="settings_title_toolbars_position">Toolbars position</string>
+    <string name="settings_summary_on_toolbars_position">Bottom</string>
+    <string name="settings_summary_off_toolbars_position">Top</string>
     <string name="settings_title_desktop_mode_default">デスクトップモード</string>
     <string name="settings_summary_desktop_mode_default">新しいタブでデスクトップモードを既定で使用するかを決める</string>
     <string name="settings_title_dark_mode_default">強制ダークモード</string>
@@ -398,7 +371,6 @@
     <string name="message_added_to_homescreen">ホーム画面にショートカットを追加しました</string>
     <string name="shortcut_message_failed_to_add">申し訳ありませんが、ランチャーはショートカットをサポートしていません。</string>
     <string name="action_delete_all_bookmarks">すべてのブックマークを削除する</string>
-    <string name="flash_not_supported">このシステムは Flash Player をサポートしていません</string>
     <string name="message_open_download_fail">このファイルは存在しません</string>
     <string name="faq">FAQ</string>
     <string name="faq_description">よくある質問と回答</string>
@@ -408,6 +380,10 @@
     <string name="app_restart">変更を反映するにはアプリを再起動してください</string>
     <string name="pref_title_crash_logs">クラッシュログ</string>
     <string name="pref_summary_crash_logs">クラッシュログをファイルシステムに書き込みます。\nタップしてフォルダを開きます。バグを報告する際に関連するファイルを提供してください。</string>
+    <string name="pref_title_logs">Logs</string>
+    <string name="pref_summary_on_logs">Enabled</string>
+    <string name="pref_summary_off_logs">Disabled</string>
+    <string name="pref_title_log_level">Log level</string>
     <!-- Dialogs -->
     <string name="dialog_open_new_tab">新しいタブで開く</string>
     <string name="dialog_open_background_tab">バックグラウンドのタブで開く</string>
@@ -416,27 +392,17 @@
     <string name="dialog_edit_bookmark">ブックマークを編集する</string>
     <string name="dialog_title_bookmark">ブックマーク</string>
     <string name="dialog_remove_from_history">履歴から削除する</string>
-    <string name="dialog_download_image">画像をダウンロードする</string>
     <string name="dialog_copy_link">リンクをコピーする</string>
     <string name="dialog_copy_text">テキストをコピー</string>
     <string name="dialog_rename_folder">フォルダ名を変更する</string>
     <string name="dialog_remove_folder">フォルダを削除する</string>
     <string name="dialog_title_close_browser">タブの消去</string>
-    <string name="dialog_delete_download">ダウンロードの削除</string>
     <string name="dialog_delete_all_downloads">ダウンロードの全削除</string>
     <!-- Tools dialog -->
     <string name="dialog_tools_title">ページツール</string>
     <string name="dialog_toggle_desktop">デスクトップユーザーエージェントを切り替える</string>
-    <string name="dialog_adblock_enable_for_site">サイトの広告ブロックを有効にする</string>
-    <string name="dialog_adblock_disable_for_site">サイトの広告ブロックを無効にする</string>
     <!-- Search Engines -->
     <string name="search_engine_custom">カスタム URL</string>
-    <string name="search_engine_duckduckgo_lite_no_js">DuckDuckGo Lite- JavaScript なし</string>
-    <string name="search_engine_duckduckgo_lite">DuckDuckGo Lite</string>
-    <string name="search_engine_duckduckgo_no_js">DuckDuckGo - JavaScript なし</string>
-    <string name="search_engine_qwant_lite">Qwant Lite</string>
-    <string name="search_engine_startpage_mobile">StartPage Mobile</string>
-    <string name="search_engine_yahoo_no_js">Yahoo - JavaScriptなし</string>
     <!-- Notifications -->
     <plurals name="notification_incognito_running_title">
         <item quantity="other">%1$d個のシークレットタブを開く</item>
@@ -455,15 +421,58 @@
     <string name="close">閉じる</string>
     <string name="exit">終了</string>
     <!-- Frozen tabs -->
-    <string name="tab_frozen">Frozen…</string>
     <!-- Search -->
     <string name="search_insert_suggestion">候補を挿入する</string>
     <string name="action_close_all_other_tabs">他の全てのタブを閉じる</string>
     <string name="action_restore_all_tabs">全てのタブを復元</string>
     <string name="action_restore_tab">タブを復元</string>
-    <string name="settings_summary_apps">サードパーティのアプリを有効にする</string>
-    <string name="settings_title_apps">アプリ</string>
-    <string name="settings_app_prefix">app_for_</string>
+    <string name="settings_title_domains">ドメイン</string>
+    <string name="settings_summary_domains">ドメイン設定の管理</string>
+    <string name="settings_title_resource_domains">リソースドメイン</string>
+    <string name="settings_title_override">上書き</string>
+    <string name="settings_summary_on_override">親の設定を上書き</string>
+    <string name="settings_summary_off_override">親の設定を使用</string>
+    <string name="settings_title_launch_app">アプリを起動</string>
+    <string name="settings_title_category">カテゴリ</string>
+    <string name="settings_summary_on_category">メインドメイン</string>
+    <string name="settings_summary_off_category">リソースドメイン</string>
+    <string name="action_domain_settings">ドメイン</string>
+    <string name="settings_title_domains_delete_all">すべて削除</string>
+    <string name="settings_summary_domains_delete_all">すべてのドメイン設定を削除</string>
+    <string name="question_delete_all_domain_settings">すべてのドメイン設定を削除しますか？</string>
+    <string name="settings_title_delete_domain_settings">ドメイン設定を削除</string>
+    <string name="settings_summary_delete_domain_settings">次回このドメインが見つかったときに再作成されます。</string>
+    <string name="settings_title_parent">親</string>
+    <string name="settings_summary_default_domain_settings">既定のドメイン設定</string>
+    <string name="settings_title_ssl_error">Security error</string>
+    <string name="settings_summary_ssl_error">What to do when an SSL error is detected</string>
+    <string name="checkbox_remember_domain_choice">Remember your choice for this domain</string>
+    <string name="settings_title_third_party_cookies">Third-party cookies</string>
+    <string name="settings_summary_on_third_party_cookies">Accept cookies used to track your activities across websites</string>
+    <string name="settings_summary_off_third_party_cookies">Reject cookies used to track your activities across websites</string>
+    <string name="settings_title_javascript">JavaScript</string>
+    <string name="settings_summary_on_javascript">All websites\' and browser\'s features should work</string>
+    <string name="settings_summary_off_javascript">Some websites\' and browser\'s features won\'t work</string>
+    <string name="settings_title_cookies">Cookies</string>
+    <string name="settings_summary_cookies">Current page has no cookies</string>
+    <string name="settings_summary_manage_cookies">Manage current page cookies</string>
+    <string name="settings_title_cookies_delete_all">Delete all</string>
+    <string name="settings_summary_cookies_delete_all">Delete all cookies for current page</string>
+    <string name="question_delete_all_page_cookies">Delete all cookies for current page?</string>
+    <plurals name="settings_summary_cookies">
+        <!--
+Zero ain't working for english.
+See: https://stackoverflow.com/a/42884713/3969362
+-->
+        <!-- <item quantity="zero">Current page has no cookies</item> -->
+        <item quantity="other">Current page has <xliff:g id="cookies_count" example="2">%d</xliff:g> cookies</item>
+    </plurals>
+    <string name="settings_title_task_label">Task label</string>
+    <string name="settings_title_task_icon">Task icon</string>
+    <string name="settings_summary_on_task_icon">Use page icon</string>
+    <string name="settings_summary_off_task_icon">Use app icon</string>
+    <string name="settings_title_toolbar_label">Toolbar label</string>
+    <!--  TODO: Remove that -->
     <string name="dialog_title_third_party_app">サードパーティーのアプリが利用可能です</string>
     <string name="dialog_message_third_party_app">そのウェブサイトに関連付けられたアプリを起動しますか?</string>
     <string name="per_month">\u0020/ 月</string>
@@ -474,7 +483,7 @@
     <string name="session_already_exists">その名前のセッションは既に存在します!</string>
     <string name="session_cant_delete_current">現在のセッションは削除できません!</string>
     <string name="session_prompt_confirm_deletion_title">削除の確認</string>
-    <string name="session_prompt_confirm_deletion_message">本当にセッション「%s」を削除してよろしいですか?</string>
+    <string name="session_prompt_confirm_deletion_message">Are you sure you want to delete session \"<xliff:g id="session_name" example="Shopping">%s</xliff:g>\"?</string>
     <string name="session_switched">「%s」に切り替えました</string>
     <string name="busy">ビジーです。少し間を開けて再試行してください。</string>
     <string name="invalid_character_removed">無効な文字が削除されました!</string>
@@ -490,7 +499,6 @@
     Long press on image link disambiguation:
         When user does a long press on a page element containing both an image and link we ask her which one she wants to use.
      -->
-    <string name="question_what_do_you_want_to_use">何をしたいですか?</string>
     <string name="button_link">リンク</string>
     <string name="button_image">画像</string>
     <!-- Displayed in snackbar to notify user a tab was closed -->
@@ -504,14 +512,22 @@
     <string name="pref_title_show_animation">アニメーションを表示</string>
     <string name="pref_title_vibrate">振動</string>
     <string name="pref_title_duration">長さ</string>
-    <string name="pref_summary_duration">アニメーションの時間をセンチ秒単位で指定します。</string>
+    <string name="settings_title_animation_duration">Animation duration</string>
+    <string name="pref_title_scrollbar_fading">フェード</string>
+    <string name="pref_summary_on_scrollbar_fading">スクロールバーがフェードアウトします</string>
+    <string name="pref_summary_off_scrollbar_fading">スクロールバーは常に表示されます</string>
+    <string name="pref_title_scrollbar_delay_before_fade">フェードするまでの遅延</string>
+    <string name="pref_summary_scrollbar_delay_before_fade">スクロールバーがフェードを開始する時間</string>
+    <string name="pref_title_scrollbar_fade_duration">フェード時間</string>
+    <string name="pref_summary_scrollbar_fade_duration">スクロールバーがフェードするまでの時間</string>
+    <string name="pref_title_scrollbar_size">サイズ</string>
+    <string name="pref_summary_scrollbar_size">スクロールバーの幅と高さを設定します</string>
     <string name="pref_category_title_session_export">セッションをエクスポート</string>
     <string name="pref_category_summary_session_export">エクスポートするセッションを選択します</string>
     <string name="error_session_file_corrupted">エラー：セッションファイルが破損しています！</string>
     <string name="error_recovery_session">エラー：リカバリセッションが作成されました！</string>
     <string name="message_session_imported">インポートされたセッション: <xliff:g id="session_name" example="News">%s</xliff:g></string>
     <string name="message_session_exported">エクスポートされたセッション: <xliff:g id="session_name" example="Cooking">%s</xliff:g></string>
-    <string name="show_ssl">SSL 警告ダイアログを表示</string>
     <string name="start_incognito">常にシークレットモードのように動作する</string>
     <string name="force_zoom_summary">JavaScriptが有効でない場合は動作しません</string>
     <string name="force_zoom">ウェブサイトを強制的にズーム</string>
@@ -524,13 +540,6 @@
     <string name="long_press_tab">「タブ」アイコンを長押しすると新しいタブが開きます</string>
     <string name="pref_title_close_drawer">ドロワーを閉じる</string>
     <string name="pref_summary_close_drawer">タブの作成後または削除後に自動的にドロワーを閉じる</string>
-    <string name="block_javascript">サイトの JavaScript をブロック</string>
-    <string name="block_sites_title">サイトのURLをコンマで区切ります</string>
-    <string name="listed_javascript">リストされたサイトの JavaScript のみを許可する</string>
-    <string name="unlisted_javascript">リストされたサイトの JavaScript をブロック</string>
-    <string name="allow_javascript">このサイトの JavaScript を許可</string>
-    <string name="blocked_javascript">このサイトの JavaScript をブロック</string>
-    <string name="page_source">ページのソースを表示</string>
     <string name="inspect">JavaScriptを挿入する</string>
     <string name="edit_cookies">サイトの Cookie を表示</string>
     <string name="site_cookies">サイトCookie</string>
@@ -560,8 +569,6 @@
     <string name="settings_exported">設定をエクスポートしました:</string>
     <string name="settings_reseted">全ての設定が復元されました</string>
     <string name="suggest">検索の候補 (個数)</string>
-    <string name="error_tip">• アドレスの入力ミスを確認して下さい</string>
-    <string name="error_tip2">• どのページにも接続できない場合は Wi-Fi の接続を確認して下さい</string>
     <string name="action_cycle_tabs_forwards">タブを前方に循環させる</string>
     <string name="action_cycle_tabs_backwards">後方にタブを循環する</string>
     <string name="action_focus_address_bar">アドレス バーにフォーカス</string>
@@ -579,4 +586,18 @@
     <string name="action_switch_to_tab">タブ1から9に切り替える</string>
     <string name="action_switch_to_last_tab">最後のタブに切り替える</string>
     <string name="action_switch_to_last_session">最後のセッションに切り替える</string>
+    <string name="log_level_verbose">Verbose</string>
+    <string name="log_level_debug">Debug</string>
+    <string name="log_level_info">Info</string>
+    <string name="log_level_warn">Warn</string>
+    <string name="log_level_error">Error</string>
+    <string name="log_level_assert">Assert</string>
+    <!-- TODO: link to existing strings -->
+    <string name="label_url">URL</string>
+    <string name="label_short_url">Short URL</string>
+    <string name="label_domain">Domain</string>
+    <string name="label_title">Title</string>
+    <string name="label_session">Session</string>
+    <string name="label_app_name">App name</string>
+    <string name="message_render_process_crashed">Render process crashed. You may need to reload some web pages.</string>
 </resources>

@@ -47,12 +47,12 @@ android.productFlavors.all { flavor ->
 }
 
 // TODO: Find a way to put it the variant/type folder such as: generated/source/locale/slionsFullDownload/debug/acr/browser/lightning/locale
-def generatedLocaleListDir = layout.buildDirectory.dir('generated/source/locale/acr/browser/lightning/locale')
+def generatedLocaleListDir = layout.buildDirectory.dir('generated/source/locale/fulguris/locale')
 
 android {
     compileSdkVersion project.targetSdkVersion
     // Specify namespace for generated R and BuildConfig classes
-    namespace 'acr.browser.lightning'
+    namespace 'fulguris'
 
     defaultConfig {
         minSdkVersion project.minSdkVersion
@@ -97,7 +97,7 @@ android {
             //signingConfig debug.signingConfig
 
             ndk {
-                abiFilters "arm64-v8a", "armeabi-v7a", "armeabi", "mips"
+                //abiFilters "arm64-v8a", "armeabi-v7a", "armeabi", "mips"
             }
         }
     }
@@ -119,8 +119,8 @@ android {
         slions {
             dimension "BRAND"
             applicationId "net.slions.fulguris"
-            versionCode 187
-            versionName "1.8.17"
+            versionCode 217
+            versionName "1.9.17"
         }
 
         styx {
@@ -133,7 +133,7 @@ android {
         /*
         lightning {
             dimension "BRAND"
-            applicationId "acr.browser.lightning"
+            applicationId "fulguris"
             versionCode 101
             versionName "5.1.0"
         }
@@ -195,6 +195,7 @@ android {
             // Gradle ignores any variants that satisfy the conditions above.
             setIgnore(true)
         }
+
     }
     packagingOptions {
         resources {
@@ -224,6 +225,9 @@ android {
             //customize your app name by using variables
             //outputFileName = "${variantName}.apk"
         }
+
+        // Allow application id access from resources, most useful for explicit intent
+        variant.resValue "string", "application_id", "\"${applicationId}\""
     }
 
 
@@ -270,18 +274,20 @@ dependencies {
 
     // Jetpack AndroidX libraries
     implementation "androidx.palette:palette-ktx:1.0.0"
-    implementation "androidx.annotation:annotation:1.3.0"
+    implementation "androidx.annotation:annotation:1.6.0"
     implementation "androidx.vectordrawable:vectordrawable-animated:1.1.0"
-    implementation "androidx.appcompat:appcompat:1.4.1"
-    implementation "androidx.recyclerview:recyclerview:1.2.1"
-    implementation "androidx.core:core-ktx:1.7.0"
-    implementation "androidx.constraintlayout:constraintlayout:2.1.2"
-    implementation "androidx.fragment:fragment:1.4.0"
-    implementation "androidx.fragment:fragment-ktx:1.4.0"
-    implementation "androidx.drawerlayout:drawerlayout:1.1.1"
+    implementation "androidx.appcompat:appcompat:1.6.1"
+    implementation "androidx.recyclerview:recyclerview:1.3.0"
+    implementation "androidx.core:core-ktx:1.10.1"
+    implementation "androidx.constraintlayout:constraintlayout:2.1.4"
+    implementation "androidx.fragment:fragment-ktx:1.6.0"
+    implementation "androidx.drawerlayout:drawerlayout:1.2.0"
     implementation 'androidx.preference:preference-ktx:1.2.0'
-    implementation 'androidx.webkit:webkit:1.4.0'
-    implementation 'androidx.core:core-splashscreen:1.0.0-beta01'
+    implementation 'androidx.webkit:webkit:1.7.0'
+    implementation 'androidx.core:core-splashscreen:1.0.1'
+    //def lifecycle_version = "2.4.0"
+    //implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+    //implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
     // We had to use alpha release to be able to use edge-to-edge bottom sheet
     // In code we use reflection to access some bottom sheet private class, methods and fields
     // Whenever you update that library you will need to review those hacks, see adjustBottomSheet.
@@ -304,7 +310,6 @@ dependencies {
     kapt "com.anthonycr.mezzanine:mezzanine-compiler:$mezzanineVersion"
 
     // dependency injection
-    final def daggerVersion = '2.40.5'
     implementation "com.google.dagger:dagger:$daggerVersion"
     kapt "com.google.dagger:dagger-compiler:$daggerVersion"
     implementation "com.google.dagger:hilt-android:$daggerVersion"
@@ -353,9 +358,13 @@ dependencies {
     // Since java.time need API 26 we use that backport instead
     // See: https://github.com/JakeWharton/ThreeTenABP
     implementation 'com.jakewharton.threetenabp:threetenabp:1.3.0'
+
+    // Logs
+    implementation 'com.jakewharton.timber:timber:5.0.1'
 }
 
 kapt {
+    correctErrorTypes true
     arguments {
         arg("mezzanine.projectPath", project.rootDir)
     }
@@ -434,7 +443,7 @@ task generateLocaleList {
 
         localeList.delete()
         localeList.createNewFile()
-        localeList << "package acr.browser.lightning.locale;" << "\n" << "\n"
+        localeList << "package fulguris.locale;" << "\n" << "\n"
         localeList << "import java.util.Arrays;" << "\n"
         localeList << "import java.util.Collections;" << "\n"
         localeList << "import java.util.List;" << "\n"
@@ -447,7 +456,7 @@ task generateLocaleList {
     }
 }
 
-tasks.whenTaskAdded { task ->
+tasks.configureEach { task ->
     if (name.contains("compile")) {
         task.dependsOn generateLocaleList
     }
